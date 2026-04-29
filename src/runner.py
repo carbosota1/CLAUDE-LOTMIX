@@ -292,6 +292,10 @@ def fetch_result(lottery: str, draw: str, date: str) -> tuple[str, str, str]:
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Scraper no encontrado: {file_path}")
 
+    # Asegura que scraper_base.py sea encontrado al importar dinámicamente
+    if scrapers_dir not in sys.path:
+        sys.path.insert(0, scrapers_dir)
+
     spec = importlib.util.spec_from_file_location(f"{lottery}_scraper", file_path)
     if spec is None or spec.loader is None:
         raise ImportError(f"No se pudo cargar el spec del scraper: {file_path}")
