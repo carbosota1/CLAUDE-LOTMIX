@@ -1,0 +1,49 @@
+name: CLAUDE LOTMIX
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_notify:
+        description: "Forzar notificación Telegram (FORCE_NOTIFY=1)"
+        required: false
+        default: "0"
+        type: choice
+        options:
+          - "0"
+          - "1"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run CLAUDE LOTMIX
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FORCE_NOTIFY: ${{ github.event.inputs.force_notify }}
+        run: python src/runner.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/histories/*.xlsx data/state.json data/picks_log.csv outputs/ || true
+          git diff --cached --quiet || git commit -m "chore: update histories & picks [skip ci]"
+          git push
