@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Outputs temporales (se commitean los que importan via workflow)
+outputs/picks*.json
+
+# OS
+.DS_Store
+Thumbs.db
