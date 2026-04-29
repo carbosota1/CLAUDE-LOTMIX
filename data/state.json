@@ -3,21 +3,22 @@
   "last_event_key": "2026-04-29|TEST|NO-UPDATE",
   "sent_by_target_fp": {
     "2026-04-29 18:00|Anguilla|Anguila 6PM": "46aa2993e1c7b45b",
-    "2026-04-29 18:00|La Suerte|Quiniela La Suerte 6PM": "81c8734d04c25180"
+    "2026-04-29 18:00|La Suerte|Quiniela La Suerte 6PM": "81c8734d04c25180",
+    "2026-04-29 19:00|La Primera|Quiniela La Primera Noche": "d71451763fb2972e"
   },
   "last_wait_key": "",
   "last_top12": [
-    "21",
+    "61",
+    "97",
+    "18",
+    "54",
+    "49",
     "92",
-    "73",
-    "13",
-    "98",
-    "53",
-    "88",
-    "07",
-    "30",
-    "35",
-    "51",
-    "66"
+    "86",
+    "59",
+    "81",
+    "63",
+    "68",
+    "34"
   ]
 }
