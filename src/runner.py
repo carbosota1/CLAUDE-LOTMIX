@@ -77,7 +77,7 @@ MIN_A11 = 11
 LOOKAHEAD_MINUTES = 5 * 60
 UPCOMING_GRACE_SECONDS = 10 * 60
 
-FORCE_NOTIFY: bool = os.getenv("FORCE_NOTIFY", "0").strip() == "1"
+FORCE_NOTIFY: bool = os.getenv("FORCE_NOTIFY", "1").strip() == "1"
 
 # ---------------------------------------------------------------------------
 # Ajustes de fuente histórica
