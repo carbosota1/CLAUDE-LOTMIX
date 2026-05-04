@@ -91,21 +91,23 @@
     "2026-05-04 14:30|La Nacional|Loteria Nacional- Gana Más": "ea7002caa1cb108d",
     "2026-05-04 18:00|Anguilla|Anguila 6PM": "77914360bfc00b78",
     "2026-05-04 18:00|La Suerte|Quiniela La Suerte 6PM": "fc5edb460518bba7",
-    "2026-05-04 19:00|La Primera|Quiniela La Primera Noche": "0f71277fa374a2f1"
+    "2026-05-04 19:00|La Primera|Quiniela La Primera Noche": "0f71277fa374a2f1",
+    "2026-05-04 21:00|Anguilla|Anguila 9PM": "429bbd0059413f22",
+    "2026-05-04 21:00|La Nacional|Loteria Nacional- Noche": "aa5161f12e2d0764"
   },
   "last_wait_key": "2026-05-04|WAIT|1",
   "last_top12": [
-    "48",
-    "41",
-    "54",
-    "79",
-    "18",
-    "61",
-    "90",
+    "19",
+    "40",
+    "22",
+    "60",
+    "21",
+    "31",
+    "53",
+    "00",
     "97",
-    "06",
-    "09",
     "72",
-    "34"
+    "52",
+    "67"
   ]
 }
