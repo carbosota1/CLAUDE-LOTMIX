@@ -19,7 +19,7 @@ import pandas as pd
 sys.path.insert(0, os.path.dirname(__file__))
 
 from io_xlsx import ensure_dir, read_history_xlsx, upsert_history_xlsx, normalize_2d
-from analyze import explode, recommend_for_target, should_alert, top_pales
+from analyze import explode, recommend_for_target, should_alert, top_pales, get_last_two_draws
 from telegram import send_telegram
 
 # ---------------------------------------------------------------------------
@@ -77,7 +77,7 @@ MIN_A11 = 11
 LOOKAHEAD_MINUTES = 5 * 60
 UPCOMING_GRACE_SECONDS = 10 * 60
 
-FORCE_NOTIFY: bool = os.getenv("FORCE_NOTIFY", "1").strip() == "1"
+FORCE_NOTIFY: bool = os.getenv("FORCE_NOTIFY", "0").strip() == "1"
 
 # ---------------------------------------------------------------------------
 # Ajustes de fuente histórica
@@ -100,7 +100,7 @@ TOP12_REPEAT_THRESHOLD = 8
 NO_PLAY_OBS_THRESHOLD = 16
 STRUCTURED_OBS_THRESHOLD = 13
 
-WEAK_SIGNAL_HARD_BLOCK = 0.015
+WEAK_SIGNAL_HARD_BLOCK = 0.008   # antes 0.015 — relajado
 FAKE_SIGNAL_PENALTY = 0.35
 REPEAT_PENALTY = 0.30
 HOT_NUM_BOOST = 0.20
@@ -863,6 +863,16 @@ def analyze_target_and_maybe_notify(
     # -----------------------------------------------------------------------
     target_dt_naive = target_dt.replace(tzinfo=None)
 
+    # Parámetros para el ensemble
+    ref_date = pd.Timestamp(target_dt.replace(tzinfo=None))
+    target_weekday = target_dt.weekday()
+    target_bucket = (
+        "morning" if target_dt.hour < 14
+        else "afternoon" if target_dt.hour < 18
+        else "night"
+    )
+    last_two = get_last_two_draws(exp, target["lottery"], target["draw"], ref_date)
+
     if not prior_pairs:
         cutoff = target_dt_naive - timedelta(days=FIRST_TARGET_RECENT_DAYS)
         recent_mask = exp["fecha_dt"] >= cutoff
@@ -873,6 +883,10 @@ def analyze_target_and_maybe_notify(
         rec_hist = recommend_for_target(
             exp, src_filter_first, target["lottery"], target["draw"],
             lag_days=0, top_n=TOPK_FULL,
+            ref_date=ref_date,
+            target_weekday=target_weekday,
+            target_bucket=target_bucket,
+            last_two_draws=last_two,
         )
         used_rows = int(recent_mask.sum())
         used_pairs = 0
@@ -922,6 +936,10 @@ def analyze_target_and_maybe_notify(
             rec_hist = recommend_for_target(
                 exp, src_filter, target["lottery"], target["draw"],
                 lag_days=0, top_n=TOPK_FULL,
+                ref_date=ref_date,
+                target_weekday=target_weekday,
+                target_bucket=target_bucket,
+                last_two_draws=last_two,
             )
             used_rows = int(recent_mask.sum())
         else:
@@ -932,6 +950,10 @@ def analyze_target_and_maybe_notify(
                 target["draw"],
                 lag_days=0,
                 top_n=TOPK_FULL,
+                ref_date=ref_date,
+                target_weekday=target_weekday,
+                target_bucket=target_bucket,
+                last_two_draws=last_two,
             )
 
     if rec_hist is None or rec_hist.empty:
@@ -1001,15 +1023,15 @@ def analyze_target_and_maybe_notify(
 
     if n_obs >= NO_PLAY_OBS_THRESHOLD:
         decision = "❌ NO JUGAR"
-    elif draw_name == "Loteria Nacional- Gana Más" and ba < 5:
+    elif draw_name == "Loteria Nacional- Gana Más" and ba < 3:
         decision = "❌ NO JUGAR"
-    elif ba <= 3:
+    elif ba <= 1:
         decision = "❌ NO JUGAR"
     elif n_obs <= STRUCTURED_OBS_THRESHOLD and bs < WEAK_SIGNAL_HARD_BLOCK:
         decision = "❌ NO JUGAR"
-    elif bs >= 0.025 and ba >= 6 and n_obs <= 12 and used_rows <= STRUCTURED_ROWS_MAX:
+    elif bs >= 0.018 and ba >= 3 and n_obs <= 12 and used_rows <= STRUCTURED_ROWS_MAX:
         decision = "🔥 JUGAR AGRESIVO"
-    elif bs >= 0.018 and ba >= 4 and n_obs <= 13:
+    elif bs >= 0.010 and ba >= 2 and n_obs <= 13:
         decision = "⚠️ JUGAR"
     else:
         decision = "❌ NO JUGAR"
