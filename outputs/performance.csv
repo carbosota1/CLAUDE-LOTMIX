@@ -87,3 +87,6 @@ key,date,time_rd,lottery,draw,result,best_signal,best_a11,ok_alert,decision,hits
 2026-05-12|La Nacional|Loteria Nacional- Gana Más|2026-05-12 14:30,2026-05-12,2026-05-12 14:30,La Nacional,Loteria Nacional- Gana Más,48-10-95,0.015622609750810996,3,False,⚠️ JUGAR,0,0,0,2148.0
 2026-05-12|Anguilla|Anguila 6PM|2026-05-12 18:00,2026-05-12,2026-05-12 18:00,Anguilla,Anguila 6PM,47-81-06,0.010357623973765526,3,False,⚠️ JUGAR,0,0,0,2342.0
 2026-05-12|La Suerte|Quiniela La Suerte 6PM|2026-05-12 18:00,2026-05-12,2026-05-12 18:00,La Suerte,Quiniela La Suerte 6PM,02-27-00,0.006090331018935304,4,False,❌ NO JUGAR,0,0,0,2342.0
+2026-05-12|La Primera|Quiniela La Primera Noche|2026-05-12 19:00,2026-05-12,2026-05-12 19:00,La Primera,Quiniela La Primera Noche,64-36-82,,,False,❌ NO JUGAR,0,0,0,0.0
+2026-05-12|Anguilla|Anguila 9PM|2026-05-12 21:00,2026-05-12,2026-05-12 21:00,Anguilla,Anguila 9PM,57-73-48,0.03275645558305953,3.0,False,❌ NO JUGAR,0,1,0,2400.0
+2026-05-12|La Nacional|Loteria Nacional- Noche|2026-05-12 21:00,2026-05-12,2026-05-12 21:00,La Nacional,Loteria Nacional- Noche,88-83-63,0.030797474541093738,2.0,False,❌ NO JUGAR,0,1,0,2400.0
