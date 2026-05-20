@@ -973,6 +973,8 @@ def analyze_target_and_maybe_notify(
     # -----------------------------------------------------------------------
     # Score híbrido
     # -----------------------------------------------------------------------
+    n_obs = len(obs_nums)  # declarado aquí para usarse en score y decision engine
+
     rec = rec_hist.copy()
     rec["num"] = rec["num"].astype(str).map(_norm2)
     rec["signal"] = pd.to_numeric(rec.get("signal", 0), errors="coerce").fillna(0.0)
@@ -1047,7 +1049,6 @@ def analyze_target_and_maybe_notify(
     # Decision engine — recalibrado con 109 sorteos reales
     # -----------------------------------------------------------------------
     decision: str
-    n_obs = len(obs_nums)
     bs = best_signal or 0.0
     ba = best_a11 or 0
 
