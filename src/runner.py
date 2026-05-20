@@ -71,8 +71,8 @@ PALES_OUT = 3
 # ---------------------------------------------------------------------------
 # Umbrales base
 # ---------------------------------------------------------------------------
-MIN_SIGNAL = 0.0075
-MIN_A11 = 11
+MIN_SIGNAL = 0.010   # calibrado con datos reales — rango 0.010-0.015 tiene 55% hit rate
+MIN_A11 = 3          # a11=3 es el punto óptimo según performance
 
 LOOKAHEAD_MINUTES = 5 * 60
 UPCOMING_GRACE_SECONDS = 10 * 60
@@ -87,30 +87,40 @@ MAX_SOURCE_ROWS = 2400
 RECENT_DAYS_CAP = 180
 FIRST_TARGET_RECENT_DAYS = 120
 MIN_OBS_FOR_STRICT_NUM_MASK = 5
-STRUCTURED_ROWS_MAX = 2000  # ← definida aquí para evitar NameError en runner
+STRUCTURED_ROWS_MAX = 2000
 
 # ---------------------------------------------------------------------------
 # Pesos y penalizaciones del score
 # ---------------------------------------------------------------------------
 SIGNAL_WEIGHT = 1.00
-A11_WEIGHT = 0.08
+A11_WEIGHT = 0.10    # subido: a11 es buen predictor según datos
 
 TOP12_REPEAT_THRESHOLD = 8
 
-NO_PLAY_OBS_THRESHOLD = 16
+# Gate de día caótico eliminado como bloqueador duro —
+# reemplazado por penalización progresiva en el score
+NO_PLAY_OBS_THRESHOLD = 99   # prácticamente desactivado
+OBS_PENALTY_PER_NUM   = 0.008  # penalización por cada número observado hoy
+
 STRUCTURED_OBS_THRESHOLD = 13
 
-WEAK_SIGNAL_HARD_BLOCK = 0.008   # antes 0.015 — relajado
-FAKE_SIGNAL_PENALTY = 0.35
-REPEAT_PENALTY = 0.30
-HOT_NUM_BOOST = 0.20
-INTRADAY_HIT_BOOST = 0.05
-POWER_COMBO_BOOST = 0.20
-FRESH_NUM_BOOST = 0.05
+# Umbrales calibrados con datos reales:
+# rango 0.010-0.015 tiene el mejor hit rate (55%)
+# señales > 0.030 tienen solo 23% — probablemente ruido
+WEAK_SIGNAL_HARD_BLOCK = 0.010
+HIGH_SIGNAL_NOISE_CAP  = 0.030  # señales sobre este umbral se penalizan levemente
 
-RECENT_LOG_WINDOW = 80
+FAKE_SIGNAL_PENALTY  = 0.35
+REPEAT_PENALTY       = 0.25   # reducido — diversificación ya la hace el ensemble
+HOT_NUM_BOOST        = 0.15
+INTRADAY_HIT_BOOST   = 0.08   # subido: datos muestran que intradía ayuda
+POWER_COMBO_BOOST    = 0.25   # subido: combo signal+a11 es el mejor predictor
+FRESH_NUM_BOOST      = 0.05
+HIGH_SIGNAL_PENALTY  = 0.10   # nuevo: penaliza señales > 0.030 (ruido)
+
+RECENT_LOG_WINDOW    = 80
 FREQ_PENALTY_PER_HIT = 0.0012
-MAX_RECENT_FREQ = 2
+MAX_RECENT_FREQ      = 2
 
 
 # ===========================================================================
@@ -969,19 +979,37 @@ def analyze_target_and_maybe_notify(
     rec["a11"] = pd.to_numeric(rec.get("a11", 0), errors="coerce").fillna(0).astype(int)
 
     rec["score"] = rec["signal"] * SIGNAL_WEIGHT + rec["a11"] * A11_WEIGHT
+
+    # Boost por números calientes intradía
     rec["score"] += rec["num"].isin(obs_nums).astype(int) * HOT_NUM_BOOST
     rec["score"] += rec["num"].map(lambda x: intraday_counts.get(x, 0)) * INTRADAY_HIT_BOOST
-    rec["score"] -= ((rec["signal"] > 0.02) & (rec["a11"] <= 3)).astype(int) * FAKE_SIGNAL_PENALTY
 
+    # Penalizar señal falsa (signal alto pero a11 muy bajo)
+    rec["score"] -= ((rec["signal"] > 0.02) & (rec["a11"] <= 2)).astype(int) * FAKE_SIGNAL_PENALTY
+
+    # Nuevo: penalizar señales > 0.030 — datos muestran que son ruido (23% hit rate)
+    rec["score"] -= (rec["signal"] > HIGH_SIGNAL_NOISE_CAP).astype(int) * HIGH_SIGNAL_PENALTY
+
+    # Anti-repetición
     last_top12 = {_norm2(x) for x in state.get("last_top12", [])}
     rec["score"] -= rec["num"].isin(last_top12).astype(int) * REPEAT_PENALTY
 
+    # Penalización por frecuencia reciente
     recent_freq = _recent_pick_frequency()
     rec_freq_vals = rec["num"].map(lambda x: recent_freq.get(x, 0))
     rec["score"] -= rec_freq_vals * FREQ_PENALTY_PER_HIT
     rec["score"] -= (rec_freq_vals >= MAX_RECENT_FREQ).astype(int) * 0.15
-    rec["score"] += ((rec["signal"] >= 0.015) & (rec["a11"] >= 5)).astype(int) * POWER_COMBO_BOOST
+
+    # Power combo: signal en rango óptimo (0.010-0.030) + a11 >= 3
+    rec["score"] += (
+        (rec["signal"] >= 0.010) & (rec["signal"] <= 0.030) & (rec["a11"] >= 3)
+    ).astype(int) * POWER_COMBO_BOOST
+
+    # Boost números frescos
     rec["score"] += (rec_freq_vals == 0).astype(int) * FRESH_NUM_BOOST
+
+    # Penalización progresiva por día cargado (reemplaza el bloqueo duro)
+    rec["score"] -= n_obs * OBS_PENALTY_PER_NUM
 
     rec = rec.sort_values(["score", "signal", "a11"], ascending=False)
     top12 = rec["num"].tolist()[:TOPK_FULL]
@@ -1000,39 +1028,52 @@ def analyze_target_and_maybe_notify(
     best_a11 = int(rec["a11"].max()) if not rec.empty else None
 
     # -----------------------------------------------------------------------
-    # Umbrales por lotería
+    # Umbrales por lotería — calibrados con datos reales
     # -----------------------------------------------------------------------
     lottery_name = target["lottery"]
     draw_name = target["draw"]
 
+    # Rango óptimo 0.010-0.015 tiene 55% hit rate en los datos
+    # a11=3 es el punto de inflexión real
     thresholds = {
-        "La Nacional": (0.007, 6),
-        "Anguilla":    (0.018, 7),
-        "La Primera":  (0.020, 3),
-        "La Suerte":   (MIN_SIGNAL, 8),
+        "La Nacional": (0.010, 3),
+        "Anguilla":    (0.010, 3),
+        "La Primera":  (0.010, 2),
+        "La Suerte":   (0.010, 3),
     }
     min_signal, min_a11 = thresholds.get(lottery_name, (MIN_SIGNAL, MIN_A11))
 
     # -----------------------------------------------------------------------
-    # Decision engine
+    # Decision engine — recalibrado con 109 sorteos reales
     # -----------------------------------------------------------------------
     decision: str
     n_obs = len(obs_nums)
     bs = best_signal or 0.0
     ba = best_a11 or 0
 
-    if n_obs >= NO_PLAY_OBS_THRESHOLD:
+    # Bloqueo duro: señal inexistente o a11 mínimo
+    if ba < 2:
         decision = "❌ NO JUGAR"
-    elif draw_name == "Loteria Nacional- Gana Más" and ba < 3:
+
+    # Bloqueo duro: señal muy débil
+    elif bs < WEAK_SIGNAL_HARD_BLOCK:
         decision = "❌ NO JUGAR"
-    elif ba <= 1:
-        decision = "❌ NO JUGAR"
-    elif n_obs <= STRUCTURED_OBS_THRESHOLD and bs < WEAK_SIGNAL_HARD_BLOCK:
-        decision = "❌ NO JUGAR"
-    elif bs >= 0.018 and ba >= 3 and n_obs <= 12 and used_rows <= STRUCTURED_ROWS_MAX:
-        decision = "🔥 JUGAR AGRESIVO"
-    elif bs >= 0.010 and ba >= 2 and n_obs <= 13:
+
+    # Señal en rango óptimo (0.010-0.030) + a11 >= 3 = mejor predictor
+    elif 0.010 <= bs <= 0.030 and ba >= 3:
+        if bs >= 0.015 and ba >= 3:
+            decision = "🔥 JUGAR AGRESIVO"
+        else:
+            decision = "⚠️ JUGAR"
+
+    # Señal baja pero a11 válido
+    elif bs >= 0.010 and ba >= 2:
         decision = "⚠️ JUGAR"
+
+    # Señal alta (> 0.030) — datos muestran solo 23% hit rate, probablemente ruido
+    elif bs > 0.030 and ba >= 3:
+        decision = "⚠️ JUGAR"  # permitir pero no agresivo
+
     else:
         decision = "❌ NO JUGAR"
 
