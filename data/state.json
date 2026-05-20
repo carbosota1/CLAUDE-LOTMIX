@@ -326,21 +326,21 @@
     "2026-05-19 14:30|La Nacional|Loteria Nacional- Gana Más": "cc8a4ec8b9ba6c50",
     "2026-05-19 21:00|Anguilla|Anguila 9PM": "a603acdd57e14d27",
     "2026-05-19 21:00|La Nacional|Loteria Nacional- Noche": "16991f85d425697e",
-    "2026-05-20 14:30|La Nacional|Loteria Nacional- Gana Más": "76395f6f8cc8e8b5"
+    "2026-05-20 14:30|La Nacional|Loteria Nacional- Gana Más": "60ff3340af020ae0"
   },
   "last_wait_key": "2026-05-18|WAIT|1",
   "last_top12": [
-    "64",
-    "44",
-    "71",
     "94",
-    "16",
-    "61",
-    "77",
-    "72",
+    "71",
     "96",
+    "77",
+    "61",
+    "02",
+    "72",
+    "64",
+    "16",
     "62",
     "20",
-    "02"
+    "44"
   ]
 }
