@@ -30,9 +30,6 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITEA_TOKEN }}
-        with:
-          python-version: "3.11"
-          cache: "pip"
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run CLAUDE LOTMIX
