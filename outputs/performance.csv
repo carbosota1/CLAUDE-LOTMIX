@@ -158,3 +158,4 @@ key,date,time_rd,lottery,draw,result,best_signal,best_a11,ok_alert,decision,hits
 2026-05-25|La Suerte|Quiniela La Suerte 6PM|2026-05-25 18:00,2026-05-25,2026-05-25 18:00,La Suerte,Quiniela La Suerte 6PM,86-35-73,0.0023344197589874804,2,False,❌ NO JUGAR,0,0,0,2381.0
 2026-05-25|La Primera|Quiniela La Primera Noche|2026-05-25 19:00,2026-05-25,2026-05-25 19:00,La Primera,Quiniela La Primera Noche,99-25-18,0.009241940365687767,3,False,❌ NO JUGAR,0,1,0,2400.0
 2026-05-30|La Primera|Quiniela La Primera|2026-05-30 12:00,2026-05-30,2026-05-30 12:00,La Primera,Quiniela La Primera,76-85-77,0.010255146439969904,1,False,❌ NO JUGAR,0,0,0,528.0
+2026-05-30|La Suerte|Quiniela La Suerte|2026-05-30 12:30,2026-05-30,2026-05-30 12:30,La Suerte,Quiniela La Suerte,88-49-82,0.023096100344254293,3,False,🔥 JUGAR AGRESIVO,0,0,0,1062.0
