@@ -277,9 +277,20 @@
     "2026-05-26|La Nacional|Loteria Nacional- Gana Más": "done",
     "2026-05-26|La Nacional|Loteria Nacional- Noche": "done",
     "2026-05-26|La Suerte|Quiniela La Suerte": "done",
-    "2026-05-26|La Suerte|Quiniela La Suerte 6PM": "done"
+    "2026-05-26|La Suerte|Quiniela La Suerte 6PM": "done",
+    "2026-05-30|Anguilla|Anguila 10AM": "done",
+    "2026-05-29|Anguilla|Anguila 10AM": "done",
+    "2026-05-29|Anguilla|Anguila 1PM": "done",
+    "2026-05-29|Anguilla|Anguila 6PM": "done",
+    "2026-05-29|Anguilla|Anguila 9PM": "done",
+    "2026-05-29|La Primera|Quiniela La Primera": "done",
+    "2026-05-29|La Primera|Quiniela La Primera Noche": "done",
+    "2026-05-29|La Nacional|Loteria Nacional- Gana Más": "done",
+    "2026-05-29|La Nacional|Loteria Nacional- Noche": "done",
+    "2026-05-29|La Suerte|Quiniela La Suerte": "done",
+    "2026-05-29|La Suerte|Quiniela La Suerte 6PM": "done"
   },
-  "last_event_key": "2026-05-25|La Primera|Quiniela La Primera Noche",
+  "last_event_key": "2026-05-30|Anguilla|Anguila 10AM",
   "sent_by_target_fp": {
     "2026-04-29 18:00|Anguilla|Anguila 6PM": "46aa2993e1c7b45b",
     "2026-04-29 18:00|La Suerte|Quiniela La Suerte 6PM": "81c8734d04c25180",
@@ -430,21 +441,22 @@
     "2026-05-25 18:00|La Suerte|Quiniela La Suerte 6PM": "c9fa0f1445c0e473",
     "2026-05-25 19:00|La Primera|Quiniela La Primera Noche": "cfd7395d4f9cd1ed",
     "2026-05-25 21:00|Anguilla|Anguila 9PM": "0371c14071167888",
-    "2026-05-25 21:00|La Nacional|Loteria Nacional- Noche": "e21ea4e2df225ad0"
+    "2026-05-25 21:00|La Nacional|Loteria Nacional- Noche": "e21ea4e2df225ad0",
+    "2026-05-30 12:00|La Primera|Quiniela La Primera": "1ec3b8c4c65682a6"
   },
   "last_wait_key": "2026-05-18|WAIT|1",
   "last_top12": [
-    "40",
-    "31",
-    "81",
-    "45",
-    "17",
-    "98",
-    "23",
-    "42",
-    "37",
-    "82",
-    "39",
-    "47"
+    "90",
+    "24",
+    "11",
+    "08",
+    "26",
+    "03",
+    "64",
+    "10",
+    "35",
+    "97",
+    "91",
+    "31"
   ]
 }
