@@ -5,8 +5,6 @@ __pycache__/
 .venv/
 .env
 
-# Outputs temporales (se commitean los que importan via workflow)
-outputs/picks*.json
 
 # OS
 .DS_Store
