@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-06-02T10:41:43.913811-04:00",
+  "event_key": "2026-06-02|TEST|NO-UPDATE",
+  "items": [
+    {
+      "generated_at": "2026-06-02T10:41:43.178792-04:00",
+      "event_key": "2026-06-02|TEST|NO-UPDATE",
+      "target": {
+        "time_rd": "2026-06-02 12:00",
+        "lottery": "La Primera",
+        "draw": "Quiniela La Primera"
+      },
+      "best_play": {
+        "time_rd": "2026-06-02 12:00",
+        "lottery": "La Primera",
+        "draw": "Quiniela La Primera",
+        "top12": [
+          "76",
+          "03",
+          "83",
+          "99",
+          "10",
+          "60",
+          "85",
+          "78",
+          "93",
+          "36",
+          "71",
+          "80"
+        ],
+        "topq": [
+          "76",
+          "03",
+          "83"
+        ],
+        "pales": [
+          "03-76",
+          "76-83",
+          "76-99"
+        ],
+        "fingerprint": "665f52ba70c292cf",
+        "ok_alert": false,
+        "decision": "⚠️ JUGAR",
+        "best_signal": 0.01574439463173827,
+        "best_a11": 2,
+        "debug": {
+          "today_observed_nums": 3,
+          "source_pairs_today": 1,
+          "source_rows_hist_used": 528,
+          "top12_overlap_prev": 12,
+          "top_intraday": [
+            [
+              "12",
+              1
+            ],
+            [
+              "72",
+              1
+            ],
+            [
+              "82",
+              1
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}
