@@ -210,6 +210,35 @@ def procesar_picks(picks: list) -> dict:
     return resultado
 
 
+
+
+def run(picks: list, output_path: str = "outputs/caliente.json") -> dict:
+    """
+    Función para llamar directamente desde runner.py sin argparse.
+
+    Args:
+        picks:       Lista de picks del formato web_payload["picks"]
+        output_path: Ruta donde se escribira caliente.json
+
+    Returns:
+        Dict con la estructura completa del caliente.json generado
+    """
+    import os
+    os.makedirs(os.path.dirname(output_path) if os.path.dirname(output_path) else ".", exist_ok=True)
+
+    caliente = procesar_picks(picks)
+
+    output = {
+        "generado_en": datetime.now().isoformat(),
+        "total_loterias": len(caliente),
+        "loterias": caliente,
+    }
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    return output
+
 def main():
     parser = argparse.ArgumentParser(
         description="Genera caliente.json desde el JSON del sistema de picks"
