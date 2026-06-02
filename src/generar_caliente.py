@@ -196,12 +196,21 @@ def procesar_picks(picks: list) -> dict:
     """
     Recibe lista de picks (puede ser 1 o varios corriendo juntos).
     Devuelve dict con clave = draw, valor = resultado de selección.
+    Procesa TODOS los picks independientemente de la decisión,
+    usando siempre el Top12 con los filtros de posiciones calientes.
     """
     resultado = {}
 
     for pick in picks:
-        decision = pick.get("decision", "")
-        if decision not in DECISIONES_VALIDAS:
+        # Saltar picks sin top12
+        top12 = pick.get("top12", [])
+        if isinstance(top12, str):
+            try:
+                import json as _json
+                top12 = _json.loads(top12)
+            except Exception:
+                top12 = []
+        if not top12:
             continue
 
         draw = pick.get("draw", "SIN_DRAW")
