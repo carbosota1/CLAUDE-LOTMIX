@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-02T19:17:48.857666-04:00",
-  "event_key": "2026-06-02|La Primera|Quiniela La Primera Noche",
+  "generated_at": "2026-06-02T20:38:47.593006-04:00",
+  "event_key": "2026-06-02|TEST|NO-UPDATE",
   "items": [
     {
-      "generated_at": "2026-06-02T19:17:42.428778-04:00",
-      "event_key": "2026-06-02|La Primera|Quiniela La Primera Noche",
+      "generated_at": "2026-06-02T20:38:41.233800-04:00",
+      "event_key": "2026-06-02|TEST|NO-UPDATE",
       "target": {
         "time_rd": "2026-06-02 21:00",
         "lottery": "Anguilla",
@@ -22,10 +22,10 @@
           "21",
           "20",
           "69",
-          "63",
           "25",
           "02",
           "48",
+          "63",
           "43"
         ],
         "topq": [
@@ -38,7 +38,7 @@
           "46-82",
           "65-82"
         ],
-        "fingerprint": "1267788c093200a6",
+        "fingerprint": "815c0b5515d692d2",
         "ok_alert": false,
         "decision": "⚠️ JUGAR",
         "best_signal": 0.03117445622504272,
@@ -74,8 +74,8 @@
       }
     },
     {
-      "generated_at": "2026-06-02T19:17:48.128739-04:00",
-      "event_key": "2026-06-02|La Primera|Quiniela La Primera Noche",
+      "generated_at": "2026-06-02T20:38:46.886991-04:00",
+      "event_key": "2026-06-02|TEST|NO-UPDATE",
       "target": {
         "time_rd": "2026-06-02 21:00",
         "lottery": "La Nacional",

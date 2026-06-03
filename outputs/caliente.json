@@ -1,16 +1,16 @@
 {
-  "generado_en": "2026-06-02T19:17:48.863958",
+  "generado_en": "2026-06-02T20:38:47.601764",
   "total_loterias": 2,
   "loterias": {
     "Anguila 9PM": {
       "numeros": [
-        "24",
-        "82",
-        "63",
+        "25",
         "65",
         "21",
         "46",
-        "69"
+        "69",
+        "82",
+        "24"
       ],
       "signal": 0.031174,
       "nivel_senal": "alta",
@@ -25,11 +25,11 @@
     },
     "Loteria Nacional- Noche": {
       "numeros": [
-        "84",
-        "72",
         "74",
         "40",
-        "54"
+        "54",
+        "72",
+        "84"
       ],
       "signal": 0.038063,
       "nivel_senal": "muy_alta",
