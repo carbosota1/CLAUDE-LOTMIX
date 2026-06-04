@@ -1,24 +1,5 @@
 {
-  "generado_en": "2026-06-03T13:17:56.276756",
-  "total_loterias": 1,
-  "loterias": {
-    "Loteria Nacional- Gana Más": {
-      "numeros": [
-        "48",
-        "61",
-        "45",
-        "98"
-      ],
-      "signal": 0.010902,
-      "nivel_senal": "baja",
-      "decision": "⚠️ JUGAR",
-      "a11": 3,
-      "ok_alert": false,
-      "hit_rate_historico": 33.3,
-      "draw": "Loteria Nacional- Gana Más",
-      "lottery": "La Nacional",
-      "date": "",
-      "time_rd": "2026-06-03 14:30"
-    }
-  }
+  "generado_en": "2026-06-04T11:32:22.480507",
+  "total_loterias": 0,
+  "loterias": {}
 }
