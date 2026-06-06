@@ -1,5 +1,24 @@
 {
-  "generado_en": "2026-06-06T11:32:39.428127",
-  "total_loterias": 0,
-  "loterias": {}
+  "generado_en": "2026-06-06T12:17:25.647780",
+  "total_loterias": 1,
+  "loterias": {
+    "Quiniela La Suerte": {
+      "numeros": [
+        "18",
+        "14",
+        "52",
+        "38"
+      ],
+      "signal": 0.023096,
+      "nivel_senal": "media",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "a11": 3,
+      "ok_alert": false,
+      "hit_rate_historico": 28.6,
+      "draw": "Quiniela La Suerte",
+      "lottery": "La Suerte",
+      "date": "",
+      "time_rd": "2026-06-06 12:30"
+    }
+  }
 }
