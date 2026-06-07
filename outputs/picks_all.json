@@ -1,56 +1,60 @@
 {
-  "generated_at": "2026-06-07T18:17:50.206767-04:00",
-  "event_key": "2026-06-07|La Suerte|Quiniela La Suerte 6PM",
+  "generated_at": "2026-06-07T19:17:28.518046-04:00",
+  "event_key": "2026-06-07|La Primera|Quiniela La Primera Noche",
   "items": [
     {
-      "generated_at": "2026-06-07T18:17:49.511396-04:00",
-      "event_key": "2026-06-07|La Suerte|Quiniela La Suerte 6PM",
+      "generated_at": "2026-06-07T19:17:27.784657-04:00",
+      "event_key": "2026-06-07|La Primera|Quiniela La Primera Noche",
       "target": {
-        "time_rd": "2026-06-07 19:00",
-        "lottery": "La Primera",
-        "draw": "Quiniela La Primera Noche"
+        "time_rd": "2026-06-07 21:00",
+        "lottery": "Anguilla",
+        "draw": "Anguila 9PM"
       },
       "best_play": {
-        "time_rd": "2026-06-07 19:00",
-        "lottery": "La Primera",
-        "draw": "Quiniela La Primera Noche",
+        "time_rd": "2026-06-07 21:00",
+        "lottery": "Anguilla",
+        "draw": "Anguila 9PM",
         "top12": [
-          "60",
+          "82",
+          "59",
+          "06",
+          "55",
+          "65",
+          "62",
+          "21",
+          "02",
           "48",
-          "79",
-          "43",
-          "41",
-          "64",
-          "37",
-          "73",
-          "07",
-          "83",
-          "33",
-          "00"
+          "68",
+          "91",
+          "43"
         ],
         "topq": [
-          "60",
-          "48",
-          "79"
+          "82",
+          "59",
+          "06"
         ],
         "pales": [
-          "48-60",
-          "60-79",
-          "43-60"
+          "59-82",
+          "06-82",
+          "55-82"
         ],
-        "fingerprint": "0c4ba4c1a53cf586",
+        "fingerprint": "8fe78986cbecaa33",
         "ok_alert": true,
-        "decision": "🔥 JUGAR AGRESIVO",
-        "best_signal": 0.015326227984276875,
-        "best_a11": 3,
+        "decision": "⚠️ JUGAR",
+        "best_signal": 0.03985336880890642,
+        "best_a11": 4,
         "debug": {
-          "today_observed_nums": 23,
-          "source_pairs_today": 8,
+          "today_observed_nums": 25,
+          "source_pairs_today": 9,
           "source_rows_hist_used": 2400,
           "top12_overlap_prev": 2,
           "top_intraday": [
             [
               "06",
+              2
+            ],
+            [
+              "39",
               2
             ],
             [
@@ -63,10 +67,6 @@
             ],
             [
               "48",
-              1
-            ],
-            [
-              "34",
               1
             ]
           ]
