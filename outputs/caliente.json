@@ -1,28 +1,24 @@
 {
-  "generado_en": "2026-06-07T19:17:28.527388",
+  "generado_en": "2026-06-08T11:32:31.635583",
   "total_loterias": 1,
   "loterias": {
-    "Anguila 9PM": {
+    "Quiniela La Primera": {
       "numeros": [
-        "02",
-        "55",
-        "65",
-        "06",
-        "21",
-        "68",
-        "82",
-        "59"
+        "72",
+        "03",
+        "58",
+        "76"
       ],
-      "signal": 0.039853,
-      "nivel_senal": "muy_alta",
+      "signal": 0.015744,
+      "nivel_senal": "media",
       "decision": "⚠️ JUGAR",
-      "a11": 4,
-      "ok_alert": true,
-      "hit_rate_historico": 75.0,
-      "draw": "Anguila 9PM",
-      "lottery": "Anguilla",
+      "a11": 2,
+      "ok_alert": false,
+      "hit_rate_historico": 50.0,
+      "draw": "Quiniela La Primera",
+      "lottery": "La Primera",
       "date": "",
-      "time_rd": "2026-06-07 21:00"
+      "time_rd": "2026-06-08 12:00"
     }
   }
 }
