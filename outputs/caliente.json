@@ -1,24 +1,24 @@
 {
-  "generado_en": "2026-06-08T12:17:34.304089",
+  "generado_en": "2026-06-08T12:42:31.963992",
   "total_loterias": 1,
   "loterias": {
-    "Quiniela La Suerte": {
+    "Anguila 1PM": {
       "numeros": [
-        "18",
-        "57",
-        "52",
-        "38"
+        "81",
+        "01",
+        "60",
+        "54"
       ],
-      "signal": 0.023096,
+      "signal": 0.016705,
       "nivel_senal": "media",
       "decision": "🔥 JUGAR AGRESIVO",
       "a11": 3,
       "ok_alert": false,
-      "hit_rate_historico": 28.6,
-      "draw": "Quiniela La Suerte",
-      "lottery": "La Suerte",
+      "hit_rate_historico": 57.1,
+      "draw": "Anguila 1PM",
+      "lottery": "Anguilla",
       "date": "",
-      "time_rd": "2026-06-08 12:30"
+      "time_rd": "2026-06-08 13:00"
     }
   }
 }
