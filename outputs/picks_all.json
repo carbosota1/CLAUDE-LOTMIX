@@ -1,125 +1,58 @@
 {
-  "generated_at": "2026-06-13T16:12:46.028374-04:00",
-  "event_key": "2026-06-13|La Nacional|Loteria Nacional- Gana Más",
+  "generated_at": "2026-06-13T19:08:47.626232-04:00",
+  "event_key": "2026-06-13|La Primera|Quiniela La Primera Noche",
   "items": [
     {
-      "generated_at": "2026-06-13T16:12:40.048929-04:00",
-      "event_key": "2026-06-13|La Nacional|Loteria Nacional- Gana Más",
+      "generated_at": "2026-06-13T19:08:46.900545-04:00",
+      "event_key": "2026-06-13|La Primera|Quiniela La Primera Noche",
       "target": {
-        "time_rd": "2026-06-13 18:00",
-        "lottery": "Anguilla",
-        "draw": "Anguila 6PM"
+        "time_rd": "2026-06-13 19:00",
+        "lottery": "La Primera",
+        "draw": "Quiniela La Primera Noche"
       },
       "best_play": {
-        "time_rd": "2026-06-13 18:00",
-        "lottery": "Anguilla",
-        "draw": "Anguila 6PM",
+        "time_rd": "2026-06-13 19:00",
+        "lottery": "La Primera",
+        "draw": "Quiniela La Primera Noche",
         "top12": [
-          "39",
-          "47",
-          "43",
-          "33",
-          "88",
+          "81",
+          "41",
+          "02",
+          "37",
+          "34",
+          "90",
+          "89",
+          "27",
+          "19",
           "14",
-          "63",
-          "70",
-          "38",
-          "03",
-          "72",
-          "26"
+          "00",
+          "01"
         ],
         "topq": [
-          "39",
-          "47",
-          "43"
+          "81",
+          "41",
+          "02"
         ],
         "pales": [
-          "39-47",
-          "39-43",
-          "33-39"
+          "41-81",
+          "02-81",
+          "37-81"
         ],
-        "fingerprint": "c7aa817a478e1535",
-        "ok_alert": false,
+        "fingerprint": "de47814be289f55b",
+        "ok_alert": true,
         "decision": "🔥 JUGAR AGRESIVO",
-        "best_signal": 0.01711295343998771,
-        "best_a11": 4,
+        "best_signal": 0.017589578589787467,
+        "best_a11": 3,
         "debug": {
-          "today_observed_nums": 15,
-          "source_pairs_today": 5,
+          "today_observed_nums": 20,
+          "source_pairs_today": 7,
           "source_rows_hist_used": 2400,
           "top12_overlap_prev": 1,
           "top_intraday": [
             [
-              "36",
-              1
+              "41",
+              2
             ],
-            [
-              "92",
-              1
-            ],
-            [
-              "29",
-              1
-            ],
-            [
-              "55",
-              1
-            ],
-            [
-              "66",
-              1
-            ]
-          ]
-        }
-      }
-    },
-    {
-      "generated_at": "2026-06-13T16:12:45.301256-04:00",
-      "event_key": "2026-06-13|La Nacional|Loteria Nacional- Gana Más",
-      "target": {
-        "time_rd": "2026-06-13 18:00",
-        "lottery": "La Suerte",
-        "draw": "Quiniela La Suerte 6PM"
-      },
-      "best_play": {
-        "time_rd": "2026-06-13 18:00",
-        "lottery": "La Suerte",
-        "draw": "Quiniela La Suerte 6PM",
-        "top12": [
-          "92",
-          "66",
-          "33",
-          "53",
-          "75",
-          "46",
-          "17",
-          "82",
-          "13",
-          "41",
-          "21",
-          "03"
-        ],
-        "topq": [
-          "92",
-          "66",
-          "33"
-        ],
-        "pales": [
-          "66-92",
-          "33-92",
-          "53-92"
-        ],
-        "fingerprint": "631556c1469b253d",
-        "ok_alert": false,
-        "decision": "⚠️ JUGAR",
-        "best_signal": 0.012439702804157881,
-        "best_a11": 3,
-        "debug": {
-          "today_observed_nums": 15,
-          "source_pairs_today": 5,
-          "source_rows_hist_used": 2400,
-          "top12_overlap_prev": 2,
-          "top_intraday": [
             [
               "36",
               1
@@ -134,10 +67,6 @@
             ],
             [
               "55",
-              1
-            ],
-            [
-              "66",
               1
             ]
           ]
