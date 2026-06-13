@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-06-13T12:01:47.127025-04:00",
-  "event_key": "2026-06-13|TEST|NO-UPDATE",
+  "generated_at": "2026-06-13T12:17:30.499149-04:00",
+  "event_key": "2026-06-13|La Primera|Quiniela La Primera",
   "date": "2026-06-13",
   "picks": [
     {
-      "lottery": "La Primera",
-      "draw": "Quiniela La Primera",
-      "time_rd": "2026-06-13 12:00",
-      "decision": "❌ NO JUGAR",
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte",
+      "time_rd": "2026-06-13 12:30",
+      "decision": "🔥 JUGAR AGRESIVO",
       "topq": [
-        "08",
-        "26",
-        "24"
+        "18",
+        "29",
+        "06"
       ],
       "top12": [
-        "08",
-        "26",
-        "24",
-        "03",
-        "54",
-        "72",
-        "50",
-        "80",
-        "19",
-        "22",
-        "71",
-        "98"
+        "18",
+        "29",
+        "06",
+        "38",
+        "14",
+        "76",
+        "78",
+        "52",
+        "48",
+        "58",
+        "57",
+        "26"
       ],
       "pales": [
-        "08-26",
-        "08-24",
-        "03-08"
+        "18-29",
+        "06-18",
+        "18-38"
       ],
       "ok_alert": false,
-      "best_signal": 0.011642562235007434,
-      "best_a11": 1
+      "best_signal": 0.023096100344254293,
+      "best_a11": 3
     }
   ]
 }
