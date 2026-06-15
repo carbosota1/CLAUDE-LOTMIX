@@ -1,24 +1,41 @@
 {
-  "generado_en": "2026-06-15T13:17:56.593598",
-  "total_loterias": 1,
+  "generado_en": "2026-06-15T16:12:36.108624",
+  "total_loterias": 2,
   "loterias": {
-    "Loteria Nacional- Gana Más": {
+    "Anguila 6PM": {
       "numeros": [
-        "77",
-        "04",
-        "85",
-        "98"
+        "87",
+        "39",
+        "47",
+        "28"
       ],
-      "signal": 0.01013,
+      "signal": 0.016209,
+      "nivel_senal": "media",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "a11": 4,
+      "ok_alert": true,
+      "hit_rate_historico": 25.0,
+      "draw": "Anguila 6PM",
+      "lottery": "Anguilla",
+      "date": "",
+      "time_rd": "2026-06-15 18:00"
+    },
+    "Quiniela La Suerte 6PM": {
+      "numeros": [
+        "33",
+        "14",
+        "29"
+      ],
+      "signal": 0.013562,
       "nivel_senal": "baja",
       "decision": "⚠️ JUGAR",
       "a11": 3,
       "ok_alert": false,
-      "hit_rate_historico": 33.3,
-      "draw": "Loteria Nacional- Gana Más",
-      "lottery": "La Nacional",
+      "hit_rate_historico": 0.0,
+      "draw": "Quiniela La Suerte 6PM",
+      "lottery": "La Suerte",
       "date": "",
-      "time_rd": "2026-06-15 14:30"
+      "time_rd": "2026-06-15 18:00"
     }
   }
 }
