@@ -1,24 +1,24 @@
 {
-  "generado_en": "2026-06-15T11:33:55.461268",
+  "generado_en": "2026-06-15T12:17:30.360721",
   "total_loterias": 1,
   "loterias": {
-    "Quiniela La Primera": {
+    "Quiniela La Suerte": {
       "numeros": [
-        "58",
-        "90",
-        "24",
-        "03"
+        "38",
+        "76",
+        "52",
+        "43"
       ],
-      "signal": 0.015744,
+      "signal": 0.024399,
       "nivel_senal": "media",
       "decision": "⚠️ JUGAR",
       "a11": 2,
       "ok_alert": false,
-      "hit_rate_historico": 50.0,
-      "draw": "Quiniela La Primera",
-      "lottery": "La Primera",
+      "hit_rate_historico": 28.6,
+      "draw": "Quiniela La Suerte",
+      "lottery": "La Suerte",
       "date": "",
-      "time_rd": "2026-06-15 12:00"
+      "time_rd": "2026-06-15 12:30"
     }
   }
 }
