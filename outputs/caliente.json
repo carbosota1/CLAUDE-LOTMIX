@@ -1,45 +1,24 @@
 {
-  "generado_en": "2026-06-15T19:17:36.833314",
-  "total_loterias": 2,
+  "generado_en": "2026-06-16T10:32:46.906645",
+  "total_loterias": 1,
   "loterias": {
-    "Anguila 9PM": {
+    "Quiniela La Primera": {
       "numeros": [
-        "21",
-        "70",
-        "94",
-        "46",
-        "28",
-        "59",
-        "82"
+        "50",
+        "93",
+        "54",
+        "76"
       ],
-      "signal": 0.029022,
-      "nivel_senal": "alta",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "a11": 4,
-      "ok_alert": true,
-      "hit_rate_historico": 75.0,
-      "draw": "Anguila 9PM",
-      "lottery": "Anguilla",
-      "date": "",
-      "time_rd": "2026-06-15 21:00"
-    },
-    "Loteria Nacional- Noche": {
-      "numeros": [
-        "83",
-        "57",
-        "42",
-        "03"
-      ],
-      "signal": 0.024739,
+      "signal": 0.015744,
       "nivel_senal": "media",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "a11": 3,
+      "decision": "⚠️ JUGAR",
+      "a11": 2,
       "ok_alert": false,
-      "hit_rate_historico": 42.9,
-      "draw": "Loteria Nacional- Noche",
-      "lottery": "La Nacional",
+      "hit_rate_historico": 50.0,
+      "draw": "Quiniela La Primera",
+      "lottery": "La Primera",
       "date": "",
-      "time_rd": "2026-06-15 21:00"
+      "time_rd": "2026-06-16 12:00"
     }
   }
 }
