@@ -1,53 +1,124 @@
 {
-  "generated_at": "2026-06-17T13:17:51.848651-04:00",
-  "event_key": "2026-06-17|Anguilla|Anguila 1PM",
+  "generated_at": "2026-06-17T15:34:07.175696-04:00",
+  "event_key": "2026-06-17|La Nacional|Loteria Nacional- Gana Más",
   "items": [
     {
-      "generated_at": "2026-06-17T13:17:51.140650-04:00",
-      "event_key": "2026-06-17|Anguilla|Anguila 1PM",
+      "generated_at": "2026-06-17T15:34:01.278049-04:00",
+      "event_key": "2026-06-17|La Nacional|Loteria Nacional- Gana Más",
       "target": {
-        "time_rd": "2026-06-17 14:30",
-        "lottery": "La Nacional",
-        "draw": "Loteria Nacional- Gana Más"
+        "time_rd": "2026-06-17 18:00",
+        "lottery": "Anguilla",
+        "draw": "Anguila 6PM"
       },
       "best_play": {
-        "time_rd": "2026-06-17 14:30",
-        "lottery": "La Nacional",
-        "draw": "Loteria Nacional- Gana Más",
+        "time_rd": "2026-06-17 18:00",
+        "lottery": "Anguilla",
+        "draw": "Anguila 6PM",
         "top12": [
+          "39",
+          "28",
+          "46",
+          "47",
+          "91",
+          "88",
+          "65",
+          "43",
           "40",
-          "70",
-          "04",
-          "98",
-          "37",
-          "61",
-          "76",
-          "68",
-          "82",
-          "94",
-          "11",
-          "54"
+          "52",
+          "81",
+          "70"
         ],
         "topq": [
-          "40",
-          "70",
-          "04"
+          "39",
+          "28",
+          "46"
         ],
         "pales": [
-          "40-70",
-          "04-40",
-          "40-98"
+          "28-39",
+          "39-46",
+          "39-47"
         ],
-        "fingerprint": "86bf8418041fcee9",
-        "ok_alert": false,
-        "decision": "❌ NO JUGAR",
-        "best_signal": 0.004947757860950703,
-        "best_a11": 2,
+        "fingerprint": "3739a00fc04698b2",
+        "ok_alert": true,
+        "decision": "🔥 JUGAR AGRESIVO",
+        "best_signal": 0.016208879056394853,
+        "best_a11": 4,
         "debug": {
-          "today_observed_nums": 11,
-          "source_pairs_today": 4,
-          "source_rows_hist_used": 2124,
-          "top12_overlap_prev": 3,
+          "today_observed_nums": 14,
+          "source_pairs_today": 5,
+          "source_rows_hist_used": 2400,
+          "top12_overlap_prev": 2,
+          "top_intraday": [
+            [
+              "40",
+              2
+            ],
+            [
+              "32",
+              1
+            ],
+            [
+              "72",
+              1
+            ],
+            [
+              "35",
+              1
+            ],
+            [
+              "42",
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "generated_at": "2026-06-17T15:34:06.479004-04:00",
+      "event_key": "2026-06-17|La Nacional|Loteria Nacional- Gana Más",
+      "target": {
+        "time_rd": "2026-06-17 18:00",
+        "lottery": "La Suerte",
+        "draw": "Quiniela La Suerte 6PM"
+      },
+      "best_play": {
+        "time_rd": "2026-06-17 18:00",
+        "lottery": "La Suerte",
+        "draw": "Quiniela La Suerte 6PM",
+        "top12": [
+          "33",
+          "72",
+          "23",
+          "67",
+          "51",
+          "68",
+          "29",
+          "13",
+          "82",
+          "30",
+          "87",
+          "76"
+        ],
+        "topq": [
+          "33",
+          "72",
+          "23"
+        ],
+        "pales": [
+          "33-72",
+          "23-33",
+          "33-67"
+        ],
+        "fingerprint": "46cad575f586d4a3",
+        "ok_alert": false,
+        "decision": "⚠️ JUGAR",
+        "best_signal": 0.0135619097965243,
+        "best_a11": 3,
+        "debug": {
+          "today_observed_nums": 14,
+          "source_pairs_today": 5,
+          "source_rows_hist_used": 2400,
+          "top12_overlap_prev": 0,
           "top_intraday": [
             [
               "40",
