@@ -1,53 +1,53 @@
 {
-  "generated_at": "2026-06-16T16:12:37.257524-04:00",
-  "event_key": "2026-06-16|La Nacional|Loteria Nacional- Gana Más",
+  "generated_at": "2026-06-16T20:24:46.755748-04:00",
+  "event_key": "2026-06-16|La Primera|Quiniela La Primera Noche",
   "items": [
     {
-      "generated_at": "2026-06-16T16:12:31.395077-04:00",
-      "event_key": "2026-06-16|La Nacional|Loteria Nacional- Gana Más",
+      "generated_at": "2026-06-16T20:24:40.225621-04:00",
+      "event_key": "2026-06-16|La Primera|Quiniela La Primera Noche",
       "target": {
-        "time_rd": "2026-06-16 18:00",
+        "time_rd": "2026-06-16 21:00",
         "lottery": "Anguilla",
-        "draw": "Anguila 6PM"
+        "draw": "Anguila 9PM"
       },
       "best_play": {
-        "time_rd": "2026-06-16 18:00",
+        "time_rd": "2026-06-16 21:00",
         "lottery": "Anguilla",
-        "draw": "Anguila 6PM",
+        "draw": "Anguila 9PM",
         "top12": [
-          "39",
-          "28",
-          "72",
-          "88",
-          "43",
+          "59",
           "46",
-          "00",
-          "33",
-          "70",
-          "81",
-          "03",
-          "26"
+          "57",
+          "82",
+          "68",
+          "97",
+          "87",
+          "26",
+          "21",
+          "48",
+          "24",
+          "43"
         ],
         "topq": [
-          "39",
-          "28",
-          "72"
+          "59",
+          "46",
+          "57"
         ],
         "pales": [
-          "28-39",
-          "39-72",
-          "39-88"
+          "46-59",
+          "57-59",
+          "59-82"
         ],
-        "fingerprint": "d7def80fbb61319a",
+        "fingerprint": "ce3d0a7ee0060e35",
         "ok_alert": true,
         "decision": "🔥 JUGAR AGRESIVO",
-        "best_signal": 0.016208879056394853,
+        "best_signal": 0.029022166434593804,
         "best_a11": 4,
         "debug": {
-          "today_observed_nums": 15,
-          "source_pairs_today": 5,
+          "today_observed_nums": 24,
+          "source_pairs_today": 8,
           "source_rows_hist_used": 2400,
-          "top12_overlap_prev": 0,
+          "top12_overlap_prev": 1,
           "top_intraday": [
             [
               "05",
@@ -74,49 +74,49 @@
       }
     },
     {
-      "generated_at": "2026-06-16T16:12:36.586937-04:00",
-      "event_key": "2026-06-16|La Nacional|Loteria Nacional- Gana Más",
+      "generated_at": "2026-06-16T20:24:46.026047-04:00",
+      "event_key": "2026-06-16|La Primera|Quiniela La Primera Noche",
       "target": {
-        "time_rd": "2026-06-16 18:00",
-        "lottery": "La Suerte",
-        "draw": "Quiniela La Suerte 6PM"
+        "time_rd": "2026-06-16 21:00",
+        "lottery": "La Nacional",
+        "draw": "Loteria Nacional- Noche"
       },
       "best_play": {
-        "time_rd": "2026-06-16 18:00",
-        "lottery": "La Suerte",
-        "draw": "Quiniela La Suerte 6PM",
+        "time_rd": "2026-06-16 21:00",
+        "lottery": "La Nacional",
+        "draw": "Loteria Nacional- Noche",
         "top12": [
-          "45",
-          "12",
-          "33",
-          "75",
-          "73",
-          "29",
-          "11",
+          "57",
+          "84",
+          "37",
+          "49",
+          "64",
+          "07",
           "79",
-          "82",
-          "35",
-          "93",
-          "76"
+          "03",
+          "76",
+          "66",
+          "80",
+          "39"
         ],
         "topq": [
-          "45",
-          "12",
-          "33"
+          "57",
+          "84",
+          "37"
         ],
         "pales": [
-          "12-45",
-          "33-45",
-          "45-75"
+          "57-84",
+          "37-57",
+          "49-57"
         ],
-        "fingerprint": "e6024eea6c6f82c3",
+        "fingerprint": "ac5a8cc7b04201d3",
         "ok_alert": false,
         "decision": "⚠️ JUGAR",
-        "best_signal": 0.012439702804157881,
+        "best_signal": 0.03426156285922769,
         "best_a11": 3,
         "debug": {
-          "today_observed_nums": 15,
-          "source_pairs_today": 5,
+          "today_observed_nums": 24,
+          "source_pairs_today": 8,
           "source_rows_hist_used": 2400,
           "top12_overlap_prev": 1,
           "top_intraday": [
