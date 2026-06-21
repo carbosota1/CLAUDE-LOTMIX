@@ -1,40 +1,106 @@
 {
-  "generated_at": "2026-06-21T13:17:23.773711-04:00",
-  "event_key": "2026-06-21|Anguilla|Anguila 1PM",
+  "generated_at": "2026-06-21T16:12:26.388094-04:00",
+  "event_key": "2026-06-21|La Nacional|Loteria Nacional- Gana Más",
   "date": "2026-06-21",
   "picks": [
     {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Gana Más",
-      "time_rd": "2026-06-21 14:30",
+      "lottery": "Anguilla",
+      "draw": "Anguila 6PM",
+      "time_rd": "2026-06-21 18:00",
       "decision": "❌ NO JUGAR",
       "topq": [
-        "15",
-        "71",
-        "98"
+        "86",
+        "92",
+        "62"
       ],
       "top12": [
-        "15",
-        "71",
-        "98",
-        "37",
-        "25",
-        "77",
-        "42",
-        "70",
-        "40",
-        "19",
-        "28",
-        "63"
+        "86",
+        "92",
+        "62",
+        "79",
+        "11",
+        "69",
+        "75",
+        "22",
+        "38",
+        "81",
+        "57",
+        "19"
       ],
       "pales": [
-        "15-71",
-        "15-98",
-        "15-37"
+        "86-92",
+        "62-86",
+        "79-86"
       ],
       "ok_alert": false,
-      "best_signal": 0.005968099331111267,
+      "best_signal": 0.006756613921828187,
+      "best_a11": 1
+    },
+    {
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Noche",
+      "time_rd": "2026-06-21 18:00",
+      "decision": "❌ NO JUGAR",
+      "topq": [
+        "85",
+        "89",
+        "05"
+      ],
+      "top12": [
+        "85",
+        "89",
+        "05",
+        "78",
+        "93",
+        "61",
+        "87",
+        "00",
+        "92",
+        "11",
+        "62",
+        "19"
+      ],
+      "pales": [
+        "85-89",
+        "05-85",
+        "78-85"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.007627605469578455,
       "best_a11": 2
+    },
+    {
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte 6PM",
+      "time_rd": "2026-06-21 18:00",
+      "decision": "❌ NO JUGAR",
+      "topq": [
+        "41",
+        "79",
+        "78"
+      ],
+      "top12": [
+        "41",
+        "79",
+        "78",
+        "11",
+        "62",
+        "66",
+        "35",
+        "51",
+        "71",
+        "53",
+        "73",
+        "21"
+      ],
+      "pales": [
+        "41-79",
+        "41-78",
+        "11-41"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.0008555266007614518,
+      "best_a11": 3
     }
   ]
 }
