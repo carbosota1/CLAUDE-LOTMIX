@@ -1,5 +1,26 @@
 {
-  "generado_en": "2026-06-21T16:12:26.393431",
-  "total_loterias": 0,
-  "loterias": {}
+  "generado_en": "2026-06-21T18:17:08.756217",
+  "total_loterias": 1,
+  "loterias": {
+    "Quiniela La Primera Noche": {
+      "numeros": [
+        "61",
+        "35",
+        "90",
+        "41",
+        "19",
+        "48"
+      ],
+      "signal": 0.027968,
+      "nivel_senal": "alta",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "a11": 3,
+      "ok_alert": true,
+      "hit_rate_historico": 40.0,
+      "draw": "Quiniela La Primera Noche",
+      "lottery": "La Primera",
+      "date": "",
+      "time_rd": "2026-06-21 19:00"
+    }
+  }
 }
