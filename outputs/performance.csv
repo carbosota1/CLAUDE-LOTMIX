@@ -361,3 +361,5 @@ key,date,time_rd,lottery,draw,result,best_signal,best_a11,ok_alert,decision,hits
 2026-06-22|La Nacional|Loteria Nacional- Noche|2026-06-22 21:00,2026-06-22,2026-06-22 21:00,La Nacional,Loteria Nacional- Noche,74-05-20,0.024738566508700894,3,False,🔥 JUGAR AGRESIVO,0,0,0,2400.0
 2026-06-23|La Primera|Quiniela La Primera|2026-06-23 12:00,2026-06-23,2026-06-23 12:00,La Primera,Quiniela La Primera,12-50-16,0.011045133857585631,1,False,❌ NO JUGAR,0,0,0,531.0
 2026-06-23|La Nacional|Loteria Nacional- Gana Más|2026-06-23 14:30,2026-06-23,2026-06-23 14:30,La Nacional,Loteria Nacional- Gana Más,07-23-59,0.005418259412428004,1,False,❌ NO JUGAR,0,0,0,1551.0
+2026-06-23|Anguilla|Anguila 6PM|2026-06-23 18:00,2026-06-23,2026-06-23 18:00,Anguilla,Anguila 6PM,56-78-05,0.026005796546047486,3,True,🔥 JUGAR AGRESIVO,0,0,0,2400.0
+2026-06-23|La Suerte|Quiniela La Suerte 6PM|2026-06-23 18:00,2026-06-23,2026-06-23 18:00,La Suerte,Quiniela La Suerte 6PM,50-53-01,0.012513841092853821,3,False,⚠️ JUGAR,0,1,0,2400.0
