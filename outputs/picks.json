@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-06-23T10:33:54.209955-04:00",
-  "event_key": "2026-06-23|Anguilla|Anguila 10AM",
+  "generated_at": "2026-06-23T13:35:36.292335-04:00",
+  "event_key": "2026-06-23|La Primera|Quiniela La Primera",
   "date": "2026-06-23",
   "picks": [
     {
-      "lottery": "La Primera",
-      "draw": "Quiniela La Primera",
-      "time_rd": "2026-06-23 12:00",
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Gana Más",
+      "time_rd": "2026-06-23 14:30",
       "decision": "❌ NO JUGAR",
       "topq": [
-        "40",
-        "24",
-        "54"
+        "16",
+        "19",
+        "39"
       ],
       "top12": [
-        "40",
-        "24",
-        "54",
-        "10",
-        "99",
-        "85",
-        "96",
-        "83",
-        "18",
-        "78",
+        "16",
+        "19",
+        "39",
+        "44",
+        "50",
+        "60",
+        "00",
+        "21",
+        "06",
+        "14",
         "89",
-        "72"
+        "40"
       ],
       "pales": [
-        "24-40",
-        "40-54",
-        "10-40"
+        "16-19",
+        "16-39",
+        "16-44"
       ],
       "ok_alert": false,
-      "best_signal": 0.011045133857585631,
+      "best_signal": 0.005418259412428004,
       "best_a11": 1
     }
   ]
