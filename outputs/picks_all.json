@@ -1,53 +1,124 @@
 {
-  "generated_at": "2026-06-27T13:17:25.093929-04:00",
-  "event_key": "2026-06-27|Anguilla|Anguila 1PM",
+  "generated_at": "2026-06-27T18:09:37.234101-04:00",
+  "event_key": "2026-06-27|La Suerte|Quiniela La Suerte 6PM",
   "items": [
     {
-      "generated_at": "2026-06-27T13:17:24.405611-04:00",
-      "event_key": "2026-06-27|Anguilla|Anguila 1PM",
+      "generated_at": "2026-06-27T18:09:30.733787-04:00",
+      "event_key": "2026-06-27|La Suerte|Quiniela La Suerte 6PM",
       "target": {
-        "time_rd": "2026-06-27 14:30",
-        "lottery": "La Nacional",
-        "draw": "Loteria Nacional- Gana Más"
+        "time_rd": "2026-06-27 18:00",
+        "lottery": "Anguilla",
+        "draw": "Anguila 6PM"
       },
       "best_play": {
-        "time_rd": "2026-06-27 14:30",
-        "lottery": "La Nacional",
-        "draw": "Loteria Nacional- Gana Más",
+        "time_rd": "2026-06-27 18:00",
+        "lottery": "Anguilla",
+        "draw": "Anguila 6PM",
         "top12": [
-          "98",
-          "71",
-          "15",
-          "07",
-          "25",
-          "55",
-          "85",
-          "34",
-          "89",
-          "11",
-          "41",
-          "84"
+          "93",
+          "28",
+          "43",
+          "39",
+          "47",
+          "51",
+          "22",
+          "88",
+          "33",
+          "94",
+          "03",
+          "73"
         ],
         "topq": [
-          "98",
-          "71",
-          "15"
+          "93",
+          "28",
+          "43"
         ],
         "pales": [
-          "71-98",
-          "15-98",
-          "07-98"
+          "28-93",
+          "43-93",
+          "39-93"
         ],
-        "fingerprint": "bcb9b4c269203a22",
-        "ok_alert": false,
-        "decision": "❌ NO JUGAR",
-        "best_signal": 0.006014727717902905,
-        "best_a11": 2,
+        "fingerprint": "a380f615bf8fe381",
+        "ok_alert": true,
+        "decision": "🔥 JUGAR AGRESIVO",
+        "best_signal": 0.02506524656698829,
+        "best_a11": 3,
         "debug": {
-          "today_observed_nums": 10,
-          "source_pairs_today": 4,
-          "source_rows_hist_used": 2130,
-          "top12_overlap_prev": 1,
+          "today_observed_nums": 13,
+          "source_pairs_today": 5,
+          "source_rows_hist_used": 2400,
+          "top12_overlap_prev": 0,
+          "top_intraday": [
+            [
+              "45",
+              2
+            ],
+            [
+              "72",
+              2
+            ],
+            [
+              "48",
+              1
+            ],
+            [
+              "10",
+              1
+            ],
+            [
+              "67",
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "generated_at": "2026-06-27T18:09:36.426749-04:00",
+      "event_key": "2026-06-27|La Suerte|Quiniela La Suerte 6PM",
+      "target": {
+        "time_rd": "2026-06-27 18:00",
+        "lottery": "La Suerte",
+        "draw": "Quiniela La Suerte 6PM"
+      },
+      "best_play": {
+        "time_rd": "2026-06-27 18:00",
+        "lottery": "La Suerte",
+        "draw": "Quiniela La Suerte 6PM",
+        "top12": [
+          "45",
+          "50",
+          "33",
+          "23",
+          "13",
+          "07",
+          "82",
+          "81",
+          "53",
+          "76",
+          "73",
+          "88"
+        ],
+        "topq": [
+          "45",
+          "50",
+          "33"
+        ],
+        "pales": [
+          "45-50",
+          "33-45",
+          "23-45"
+        ],
+        "fingerprint": "3b94e08714b5c42f",
+        "ok_alert": false,
+        "decision": "⚠️ JUGAR",
+        "best_signal": 0.012465835125835083,
+        "best_a11": 3,
+        "debug": {
+          "today_observed_nums": 13,
+          "source_pairs_today": 5,
+          "source_rows_hist_used": 2400,
+          "top12_overlap_prev": 3,
           "top_intraday": [
             [
               "45",
