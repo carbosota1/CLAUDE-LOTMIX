@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-06-29T11:39:38.021267-04:00",
-  "event_key": "2026-06-29|Anguilla|Anguila 10AM",
+  "generated_at": "2026-06-29T12:42:19.683584-04:00",
+  "event_key": "2026-06-29|La Suerte|Quiniela La Suerte",
   "date": "2026-06-29",
   "picks": [
     {
-      "lottery": "La Primera",
-      "draw": "Quiniela La Primera",
-      "time_rd": "2026-06-29 12:00",
-      "decision": "❌ NO JUGAR",
+      "lottery": "Anguilla",
+      "draw": "Anguila 1PM",
+      "time_rd": "2026-06-29 13:00",
+      "decision": "⚠️ JUGAR",
       "topq": [
-        "31",
-        "58",
-        "72"
+        "43",
+        "42",
+        "37"
       ],
       "top12": [
-        "31",
-        "58",
-        "72",
-        "24",
-        "40",
-        "51",
-        "76",
+        "43",
+        "42",
+        "37",
+        "44",
+        "78",
+        "14",
+        "80",
+        "54",
+        "82",
+        "94",
         "96",
-        "35",
-        "91",
-        "71",
-        "62"
+        "24"
       ],
       "pales": [
-        "31-58",
-        "31-72",
-        "24-31"
+        "42-43",
+        "37-43",
+        "43-44"
       ],
       "ok_alert": false,
-      "best_signal": 0.011045133857585631,
-      "best_a11": 1
+      "best_signal": 0.014315294162278324,
+      "best_a11": 3
     }
   ]
 }
