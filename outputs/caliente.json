@@ -1,5 +1,61 @@
 {
-  "generado_en": "2026-07-05T13:17:54.339093",
-  "total_loterias": 0,
-  "loterias": {}
+  "generado_en": "2026-07-05T16:16:51.116201",
+  "total_loterias": 3,
+  "loterias": {
+    "Anguila 6PM": {
+      "numeros": [
+        "54",
+        "47",
+        "39",
+        "93",
+        "28"
+      ],
+      "signal": 0.026055,
+      "nivel_senal": "alta",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "a11": 4,
+      "ok_alert": true,
+      "hit_rate_historico": 25.0,
+      "draw": "Anguila 6PM",
+      "lottery": "Anguilla",
+      "date": "",
+      "time_rd": "2026-07-05 18:00"
+    },
+    "Loteria Nacional- Noche": {
+      "numeros": [
+        "50",
+        "97",
+        "34",
+        "84"
+      ],
+      "signal": 0.011141,
+      "nivel_senal": "baja",
+      "decision": "⚠️ JUGAR",
+      "a11": 3,
+      "ok_alert": false,
+      "hit_rate_historico": 42.9,
+      "draw": "Loteria Nacional- Noche",
+      "lottery": "La Nacional",
+      "date": "",
+      "time_rd": "2026-07-05 18:00"
+    },
+    "Quiniela La Suerte 6PM": {
+      "numeros": [
+        "33",
+        "39",
+        "88",
+        "23"
+      ],
+      "signal": 0.021951,
+      "nivel_senal": "media",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "a11": 3,
+      "ok_alert": true,
+      "hit_rate_historico": 0.0,
+      "draw": "Quiniela La Suerte 6PM",
+      "lottery": "La Suerte",
+      "date": "",
+      "time_rd": "2026-07-05 18:00"
+    }
+  }
 }
