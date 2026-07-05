@@ -1,105 +1,39 @@
 {
-  "generated_at": "2026-07-05T16:16:51.108108-04:00",
-  "event_key": "2026-07-05|La Nacional|Loteria Nacional- Gana Más",
+  "generated_at": "2026-07-05T18:17:39.560601-04:00",
+  "event_key": "2026-07-05|La Suerte|Quiniela La Suerte 6PM",
   "date": "2026-07-05",
   "picks": [
     {
-      "lottery": "Anguilla",
-      "draw": "Anguila 6PM",
-      "time_rd": "2026-07-05 18:00",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "topq": [
-        "47",
-        "93",
-        "28"
-      ],
-      "top12": [
-        "47",
-        "93",
-        "28",
-        "43",
-        "39",
-        "46",
-        "64",
-        "54",
-        "75",
-        "92",
-        "94",
-        "51"
-      ],
-      "pales": [
-        "47-93",
-        "28-47",
-        "43-47"
-      ],
-      "ok_alert": true,
-      "best_signal": 0.026054900011398034,
-      "best_a11": 4
-    },
-    {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Noche",
-      "time_rd": "2026-07-05 18:00",
+      "lottery": "La Primera",
+      "draw": "Quiniela La Primera Noche",
+      "time_rd": "2026-07-05 19:00",
       "decision": "⚠️ JUGAR",
       "topq": [
-        "84",
-        "97",
-        "85"
+        "35",
+        "73",
+        "18"
       ],
       "top12": [
-        "84",
-        "97",
-        "85",
-        "53",
-        "50",
-        "38",
+        "35",
         "73",
-        "34",
-        "20",
-        "52",
-        "76",
-        "03"
+        "18",
+        "09",
+        "48",
+        "95",
+        "15",
+        "33",
+        "99",
+        "50",
+        "53",
+        "39"
       ],
       "pales": [
-        "84-97",
-        "84-85",
-        "53-84"
+        "35-73",
+        "18-35",
+        "09-35"
       ],
       "ok_alert": false,
-      "best_signal": 0.011140626557486996,
-      "best_a11": 3
-    },
-    {
-      "lottery": "La Suerte",
-      "draw": "Quiniela La Suerte 6PM",
-      "time_rd": "2026-07-05 18:00",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "topq": [
-        "33",
-        "23",
-        "41"
-      ],
-      "top12": [
-        "33",
-        "23",
-        "41",
-        "59",
-        "39",
-        "32",
-        "16",
-        "88",
-        "81",
-        "07",
-        "21",
-        "53"
-      ],
-      "pales": [
-        "23-33",
-        "33-41",
-        "33-59"
-      ],
-      "ok_alert": true,
-      "best_signal": 0.02195098919915596,
+      "best_signal": 0.05752654250288248,
       "best_a11": 3
     }
   ]
