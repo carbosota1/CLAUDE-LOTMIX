@@ -1,46 +1,5 @@
 {
-  "generado_en": "2026-07-09T19:17:39.378106",
-  "total_loterias": 2,
-  "loterias": {
-    "Anguila 9PM": {
-      "numeros": [
-        "25",
-        "95",
-        "18",
-        "03",
-        "59",
-        "29",
-        "63"
-      ],
-      "signal": 0.04184,
-      "nivel_senal": "muy_alta",
-      "decision": "⚠️ JUGAR",
-      "a11": 4.0,
-      "ok_alert": true,
-      "hit_rate_historico": 31.7,
-      "draw": "Anguila 9PM",
-      "lottery": "Anguilla",
-      "date": "",
-      "time_rd": "2026-07-09 21:00"
-    },
-    "Loteria Nacional- Noche": {
-      "numeros": [
-        "24",
-        "17",
-        "86",
-        "59",
-        "97"
-      ],
-      "signal": 0.029987,
-      "nivel_senal": "alta",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "a11": 3.0,
-      "ok_alert": false,
-      "hit_rate_historico": 35.1,
-      "draw": "Loteria Nacional- Noche",
-      "lottery": "La Nacional",
-      "date": "",
-      "time_rd": "2026-07-09 21:00"
-    }
-  }
+  "generado_en": "2026-07-10T10:34:10.394410",
+  "total_loterias": 0,
+  "loterias": {}
 }
