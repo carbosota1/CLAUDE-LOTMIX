@@ -522,3 +522,4 @@ key,date,time_rd,lottery,draw,result,best_signal,best_a11,ok_alert,decision,hits
 2026-07-11|La Nacional|Loteria Nacional- Noche|2026-07-11 21:00,2026-07-11,2026-07-11 21:00,La Nacional,Loteria Nacional- Noche,97-84-01,0.038063493573460574,4,False,⚠️ JUGAR,1,1,0,2400.0
 2026-07-12|La Primera|Quiniela La Primera|2026-07-12 12:00,2026-07-12,2026-07-12 12:00,La Primera,Quiniela La Primera,50-47-45,0.020741849752891874,1,False,❌ NO JUGAR,0,1,0,534.0
 2026-07-12|La Suerte|Quiniela La Suerte|2026-07-12 12:30,2026-07-12,2026-07-12 12:30,La Suerte,Quiniela La Suerte,93-02-72,0.00836105465331849,2,False,❌ NO JUGAR,0,0,0,1068.0
+2026-07-12|Anguilla|Anguila 1PM|2026-07-12 13:00,2026-07-12,2026-07-12 13:00,Anguilla,Anguila 1PM,37-57-25,0.015616638282751748,3,False,🔥 JUGAR AGRESIVO,0,0,0,1602.0
