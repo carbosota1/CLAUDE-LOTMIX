@@ -1,73 +1,40 @@
 {
-  "generated_at": "2026-07-11T19:17:39.635763-04:00",
-  "event_key": "2026-07-11|La Primera|Quiniela La Primera Noche",
-  "date": "2026-07-11",
+  "generated_at": "2026-07-12T10:34:07.892977-04:00",
+  "event_key": "2026-07-12|Anguilla|Anguila 10AM",
+  "date": "2026-07-12",
   "picks": [
     {
-      "lottery": "Anguilla",
-      "draw": "Anguila 9PM",
-      "time_rd": "2026-07-11 21:00",
-      "decision": "⚠️ JUGAR",
+      "lottery": "La Primera",
+      "draw": "Quiniela La Primera",
+      "time_rd": "2026-07-12 12:00",
+      "decision": "❌ NO JUGAR",
       "topq": [
-        "63",
-        "95",
-        "92"
-      ],
-      "top12": [
-        "63",
-        "95",
-        "92",
-        "58",
-        "12",
+        "64",
         "69",
-        "04",
-        "06",
-        "24",
-        "40",
-        "79",
-        "84"
-      ],
-      "pales": [
-        "63-95",
-        "63-92",
-        "58-63"
-      ],
-      "ok_alert": true,
-      "best_signal": 0.043146201573731925,
-      "best_a11": 3
-    },
-    {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Noche",
-      "time_rd": "2026-07-11 21:00",
-      "decision": "⚠️ JUGAR",
-      "topq": [
-        "54",
-        "42",
-        "97"
+        "51"
       ],
       "top12": [
-        "54",
-        "42",
-        "97",
-        "37",
-        "49",
-        "03",
-        "20",
-        "57",
-        "80",
-        "11",
+        "64",
+        "69",
+        "51",
+        "10",
+        "25",
+        "96",
+        "70",
+        "83",
+        "85",
+        "15",
         "47",
-        "86"
+        "40"
       ],
       "pales": [
-        "42-54",
-        "54-97",
-        "37-54"
+        "64-69",
+        "51-64",
+        "10-64"
       ],
       "ok_alert": false,
-      "best_signal": 0.038063493573460574,
-      "best_a11": 4
+      "best_signal": 0.020741849752891874,
+      "best_a11": 1
     }
   ]
 }
