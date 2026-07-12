@@ -1,105 +1,39 @@
 {
-  "generated_at": "2026-07-12T16:12:48.060246-04:00",
-  "event_key": "2026-07-12|La Nacional|Loteria Nacional- Gana Más",
+  "generated_at": "2026-07-12T18:17:43.397765-04:00",
+  "event_key": "2026-07-12|La Suerte|Quiniela La Suerte 6PM",
   "date": "2026-07-12",
   "picks": [
     {
-      "lottery": "Anguilla",
-      "draw": "Anguila 6PM",
-      "time_rd": "2026-07-12 18:00",
-      "decision": "🔥 JUGAR AGRESIVO",
+      "lottery": "La Primera",
+      "draw": "Quiniela La Primera Noche",
+      "time_rd": "2026-07-12 19:00",
+      "decision": "⚠️ JUGAR",
       "topq": [
-        "47",
-        "93",
-        "43"
+        "79",
+        "48",
+        "15"
       ],
       "top12": [
-        "47",
-        "93",
-        "43",
-        "39",
-        "46",
-        "54",
-        "26",
-        "03",
-        "92",
-        "56",
-        "06",
-        "75"
-      ],
-      "pales": [
-        "47-93",
-        "43-47",
-        "39-47"
-      ],
-      "ok_alert": true,
-      "best_signal": 0.026054900011398034,
-      "best_a11": 4
-    },
-    {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Noche",
-      "time_rd": "2026-07-12 18:00",
-      "decision": "❌ NO JUGAR",
-      "topq": [
-        "50",
-        "84",
-        "53"
-      ],
-      "top12": [
-        "50",
-        "84",
+        "79",
+        "48",
+        "15",
         "53",
-        "38",
-        "52",
-        "20",
-        "61",
-        "10",
-        "11",
-        "47",
-        "03",
-        "54"
+        "42",
+        "22",
+        "33",
+        "05",
+        "99",
+        "55",
+        "65",
+        "35"
       ],
       "pales": [
-        "50-84",
-        "50-53",
-        "38-50"
+        "48-79",
+        "15-79",
+        "53-79"
       ],
       "ok_alert": false,
-      "best_signal": 0.006873388284473522,
-      "best_a11": 3
-    },
-    {
-      "lottery": "La Suerte",
-      "draw": "Quiniela La Suerte 6PM",
-      "time_rd": "2026-07-12 18:00",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "topq": [
-        "23",
-        "45",
-        "32"
-      ],
-      "top12": [
-        "23",
-        "45",
-        "32",
-        "67",
-        "41",
-        "50",
-        "66",
-        "07",
-        "81",
-        "35",
-        "58",
-        "92"
-      ],
-      "pales": [
-        "23-45",
-        "23-32",
-        "23-67"
-      ],
-      "ok_alert": false,
-      "best_signal": 0.02195098919915596,
+      "best_signal": 0.0555166334425079,
       "best_a11": 3
     }
   ]
