@@ -1,5 +1,26 @@
 {
-  "generado_en": "2026-07-13T13:17:57.087401",
-  "total_loterias": 0,
-  "loterias": {}
+  "generado_en": "2026-07-13T18:17:32.382735",
+  "total_loterias": 1,
+  "loterias": {
+    "Quiniela La Primera Noche": {
+      "numeros": [
+        "72",
+        "92",
+        "22",
+        "33",
+        "47",
+        "18"
+      ],
+      "signal": 0.033639,
+      "nivel_senal": "muy_alta",
+      "decision": "⚠️ JUGAR",
+      "a11": 3.0,
+      "ok_alert": false,
+      "hit_rate_historico": 25.0,
+      "draw": "Quiniela La Primera Noche",
+      "lottery": "La Primera",
+      "date": "",
+      "time_rd": "2026-07-13 19:00"
+    }
+  }
 }
