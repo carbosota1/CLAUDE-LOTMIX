@@ -1,54 +1,58 @@
 {
-  "generated_at": "2026-07-16T16:12:44.335531-04:00",
-  "event_key": "2026-07-16|La Nacional|Loteria Nacional- Gana Más",
+  "generated_at": "2026-07-16T18:17:42.799800-04:00",
+  "event_key": "2026-07-16|La Suerte|Quiniela La Suerte 6PM",
   "items": [
     {
-      "generated_at": "2026-07-16T16:12:38.611835-04:00",
-      "event_key": "2026-07-16|La Nacional|Loteria Nacional- Gana Más",
+      "generated_at": "2026-07-16T18:17:41.755583-04:00",
+      "event_key": "2026-07-16|La Suerte|Quiniela La Suerte 6PM",
       "target": {
-        "time_rd": "2026-07-16 18:00",
-        "lottery": "Anguilla",
-        "draw": "Anguila 6PM"
+        "time_rd": "2026-07-16 19:00",
+        "lottery": "La Primera",
+        "draw": "Quiniela La Primera Noche"
       },
       "best_play": {
-        "time_rd": "2026-07-16 18:00",
-        "lottery": "Anguilla",
-        "draw": "Anguila 6PM",
+        "time_rd": "2026-07-16 19:00",
+        "lottery": "La Primera",
+        "draw": "Quiniela La Primera Noche",
         "top12": [
-          "03",
-          "77",
-          "63",
-          "17",
-          "69",
-          "56",
-          "91",
-          "52",
-          "66",
-          "42",
-          "59",
-          "96"
+          "48",
+          "90",
+          "72",
+          "18",
+          "83",
+          "35",
+          "22",
+          "92",
+          "53",
+          "05",
+          "86",
+          "32"
         ],
         "topq": [
-          "03",
-          "77",
-          "63"
+          "48",
+          "90",
+          "72"
         ],
         "pales": [
-          "03-77",
-          "03-63",
-          "03-17"
+          "48-90",
+          "48-72",
+          "18-48"
         ],
-        "fingerprint": "a10cc5f03614679f",
-        "ok_alert": false,
-        "decision": "❌ NO JUGAR",
-        "best_signal": 0.007101565442368251,
+        "fingerprint": "4065f7fb54a7a288",
+        "ok_alert": true,
+        "decision": "🔥 JUGAR AGRESIVO",
+        "best_signal": 0.02497638353455762,
         "best_a11": 3,
         "debug": {
-          "today_observed_nums": 12,
-          "source_pairs_today": 5,
-          "source_rows_hist_used": 2288,
-          "top12_overlap_prev": 1,
+          "today_observed_nums": 16,
+          "source_pairs_today": 7,
+          "source_rows_hist_used": 2400,
+          "top12_overlap_prev": 2,
           "top_intraday": [
+            [
+              "03",
+              2
+            ],
             [
               "69",
               2
@@ -62,83 +66,8 @@
               2
             ],
             [
-              "03",
-              1
-            ],
-            [
-              "99",
-              1
-            ]
-          ]
-        }
-      }
-    },
-    {
-      "generated_at": "2026-07-16T16:12:43.608395-04:00",
-      "event_key": "2026-07-16|La Nacional|Loteria Nacional- Gana Más",
-      "target": {
-        "time_rd": "2026-07-16 18:00",
-        "lottery": "La Suerte",
-        "draw": "Quiniela La Suerte 6PM"
-      },
-      "best_play": {
-        "time_rd": "2026-07-16 18:00",
-        "lottery": "La Suerte",
-        "draw": "Quiniela La Suerte 6PM",
-        "top12": [
-          "12",
-          "78",
-          "04",
-          "56",
-          "17",
-          "96",
-          "87",
-          "32",
-          "13",
-          "73",
-          "53",
-          "66"
-        ],
-        "topq": [
-          "12",
-          "78",
-          "04"
-        ],
-        "pales": [
-          "12-78",
-          "04-12",
-          "12-56"
-        ],
-        "fingerprint": "ad4f72730a559fd7",
-        "ok_alert": false,
-        "decision": "❌ NO JUGAR",
-        "best_signal": 0.0007864898349523315,
-        "best_a11": 2,
-        "debug": {
-          "today_observed_nums": 12,
-          "source_pairs_today": 5,
-          "source_rows_hist_used": 2288,
-          "top12_overlap_prev": 4,
-          "top_intraday": [
-            [
-              "69",
+              "04",
               2
-            ],
-            [
-              "12",
-              2
-            ],
-            [
-              "17",
-              2
-            ],
-            [
-              "03",
-              1
-            ],
-            [
-              "99",
-              1
             ]
           ]
         }
