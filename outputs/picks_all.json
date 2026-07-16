@@ -1,53 +1,124 @@
 {
-  "generated_at": "2026-07-16T18:17:42.799800-04:00",
-  "event_key": "2026-07-16|La Suerte|Quiniela La Suerte 6PM",
+  "generated_at": "2026-07-16T19:17:39.398633-04:00",
+  "event_key": "2026-07-16|La Primera|Quiniela La Primera Noche",
   "items": [
     {
-      "generated_at": "2026-07-16T18:17:41.755583-04:00",
-      "event_key": "2026-07-16|La Suerte|Quiniela La Suerte 6PM",
+      "generated_at": "2026-07-16T19:17:32.615166-04:00",
+      "event_key": "2026-07-16|La Primera|Quiniela La Primera Noche",
       "target": {
-        "time_rd": "2026-07-16 19:00",
-        "lottery": "La Primera",
-        "draw": "Quiniela La Primera Noche"
+        "time_rd": "2026-07-16 21:00",
+        "lottery": "Anguilla",
+        "draw": "Anguila 9PM"
       },
       "best_play": {
-        "time_rd": "2026-07-16 19:00",
-        "lottery": "La Primera",
-        "draw": "Quiniela La Primera Noche",
+        "time_rd": "2026-07-16 21:00",
+        "lottery": "Anguilla",
+        "draw": "Anguila 9PM",
         "top12": [
-          "48",
-          "90",
-          "72",
-          "18",
-          "83",
-          "35",
-          "22",
-          "92",
-          "53",
-          "05",
-          "86",
-          "32"
+          "58",
+          "63",
+          "03",
+          "79",
+          "59",
+          "25",
+          "95",
+          "34",
+          "76",
+          "51",
+          "84",
+          "18"
         ],
         "topq": [
-          "48",
-          "90",
-          "72"
+          "58",
+          "63",
+          "03"
         ],
         "pales": [
-          "48-90",
-          "48-72",
-          "18-48"
+          "58-63",
+          "03-58",
+          "58-79"
         ],
-        "fingerprint": "4065f7fb54a7a288",
+        "fingerprint": "076e77b1cc72be38",
         "ok_alert": true,
-        "decision": "🔥 JUGAR AGRESIVO",
-        "best_signal": 0.02497638353455762,
+        "decision": "⚠️ JUGAR",
+        "best_signal": 0.043146201573731925,
         "best_a11": 3,
         "debug": {
-          "today_observed_nums": 16,
-          "source_pairs_today": 7,
+          "today_observed_nums": 18,
+          "source_pairs_today": 8,
           "source_rows_hist_used": 2400,
-          "top12_overlap_prev": 2,
+          "top12_overlap_prev": 1,
+          "top_intraday": [
+            [
+              "03",
+              2
+            ],
+            [
+              "69",
+              2
+            ],
+            [
+              "12",
+              2
+            ],
+            [
+              "17",
+              2
+            ],
+            [
+              "04",
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "generated_at": "2026-07-16T19:17:38.582759-04:00",
+      "event_key": "2026-07-16|La Primera|Quiniela La Primera Noche",
+      "target": {
+        "time_rd": "2026-07-16 21:00",
+        "lottery": "La Nacional",
+        "draw": "Loteria Nacional- Noche"
+      },
+      "best_play": {
+        "time_rd": "2026-07-16 21:00",
+        "lottery": "La Nacional",
+        "draw": "Loteria Nacional- Noche",
+        "top12": [
+          "42",
+          "17",
+          "43",
+          "40",
+          "03",
+          "61",
+          "46",
+          "82",
+          "20",
+          "86",
+          "81",
+          "39"
+        ],
+        "topq": [
+          "42",
+          "17",
+          "43"
+        ],
+        "pales": [
+          "17-42",
+          "42-43",
+          "40-42"
+        ],
+        "fingerprint": "bfdb74429b4ef0d3",
+        "ok_alert": false,
+        "decision": "🔥 JUGAR AGRESIVO",
+        "best_signal": 0.028091949724126767,
+        "best_a11": 4,
+        "debug": {
+          "today_observed_nums": 18,
+          "source_pairs_today": 8,
+          "source_rows_hist_used": 2400,
+          "top12_overlap_prev": 1,
           "top_intraday": [
             [
               "03",
