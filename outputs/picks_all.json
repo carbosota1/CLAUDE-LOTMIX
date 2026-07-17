@@ -1,57 +1,128 @@
 {
-  "generated_at": "2026-07-17T13:18:02.664303-04:00",
-  "event_key": "2026-07-17|Anguilla|Anguila 1PM",
+  "generated_at": "2026-07-17T16:12:42.056564-04:00",
+  "event_key": "2026-07-17|La Nacional|Loteria Nacional- Gana Más",
   "items": [
     {
-      "generated_at": "2026-07-17T13:18:01.960251-04:00",
-      "event_key": "2026-07-17|Anguilla|Anguila 1PM",
+      "generated_at": "2026-07-17T16:12:35.956426-04:00",
+      "event_key": "2026-07-17|La Nacional|Loteria Nacional- Gana Más",
       "target": {
-        "time_rd": "2026-07-17 14:30",
-        "lottery": "La Nacional",
-        "draw": "Loteria Nacional- Gana Más"
+        "time_rd": "2026-07-17 18:00",
+        "lottery": "Anguilla",
+        "draw": "Anguila 6PM"
       },
       "best_play": {
-        "time_rd": "2026-07-17 14:30",
-        "lottery": "La Nacional",
-        "draw": "Loteria Nacional- Gana Más",
+        "time_rd": "2026-07-17 18:00",
+        "lottery": "Anguilla",
+        "draw": "Anguila 6PM",
         "top12": [
-          "63",
-          "19",
-          "67",
-          "07",
-          "30",
-          "25",
-          "89",
-          "18",
-          "75",
-          "29",
-          "83",
-          "65"
+          "47",
+          "43",
+          "93",
+          "79",
+          "22",
+          "00",
+          "54",
+          "04",
+          "14",
+          "26",
+          "03",
+          "92"
         ],
         "topq": [
-          "63",
-          "19",
-          "67"
+          "47",
+          "43",
+          "93"
         ],
         "pales": [
-          "19-63",
-          "63-67",
-          "07-63"
+          "43-47",
+          "47-93",
+          "47-79"
         ],
-        "fingerprint": "ff0d678360e3501e",
-        "ok_alert": false,
-        "decision": "❌ NO JUGAR",
-        "best_signal": 0.00721964055958317,
-        "best_a11": 2,
+        "fingerprint": "8bee40b7d04106e0",
+        "ok_alert": true,
+        "decision": "🔥 JUGAR AGRESIVO",
+        "best_signal": 0.026054900011398034,
+        "best_a11": 4,
         "debug": {
-          "today_observed_nums": 11,
-          "source_pairs_today": 4,
-          "source_rows_hist_used": 2136,
-          "top12_overlap_prev": 3,
+          "today_observed_nums": 13,
+          "source_pairs_today": 5,
+          "source_rows_hist_used": 2400,
+          "top12_overlap_prev": 0,
           "top_intraday": [
             [
               "99",
-              2
+              3
+            ],
+            [
+              "82",
+              1
+            ],
+            [
+              "50",
+              1
+            ],
+            [
+              "63",
+              1
+            ],
+            [
+              "98",
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "generated_at": "2026-07-17T16:12:41.342327-04:00",
+      "event_key": "2026-07-17|La Nacional|Loteria Nacional- Gana Más",
+      "target": {
+        "time_rd": "2026-07-17 18:00",
+        "lottery": "La Suerte",
+        "draw": "Quiniela La Suerte 6PM"
+      },
+      "best_play": {
+        "time_rd": "2026-07-17 18:00",
+        "lottery": "La Suerte",
+        "draw": "Quiniela La Suerte 6PM",
+        "top12": [
+          "23",
+          "13",
+          "78",
+          "41",
+          "44",
+          "91",
+          "52",
+          "66",
+          "07",
+          "81",
+          "30",
+          "03"
+        ],
+        "topq": [
+          "23",
+          "13",
+          "78"
+        ],
+        "pales": [
+          "13-23",
+          "23-78",
+          "23-41"
+        ],
+        "fingerprint": "0f9a1f63c41f0efb",
+        "ok_alert": false,
+        "decision": "🔥 JUGAR AGRESIVO",
+        "best_signal": 0.02269787878924028,
+        "best_a11": 3,
+        "debug": {
+          "today_observed_nums": 13,
+          "source_pairs_today": 5,
+          "source_rows_hist_used": 2400,
+          "top12_overlap_prev": 1,
+          "top_intraday": [
+            [
+              "99",
+              3
             ],
             [
               "82",
