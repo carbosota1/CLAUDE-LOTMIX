@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-07-18T12:42:34.934891-04:00",
-  "event_key": "2026-07-18|La Suerte|Quiniela La Suerte",
+  "generated_at": "2026-07-18T13:17:52.706483-04:00",
+  "event_key": "2026-07-18|Anguilla|Anguila 1PM",
   "items": [
     {
-      "generated_at": "2026-07-18T12:42:34.215690-04:00",
-      "event_key": "2026-07-18|La Suerte|Quiniela La Suerte",
+      "generated_at": "2026-07-18T13:17:52.000385-04:00",
+      "event_key": "2026-07-18|Anguilla|Anguila 1PM",
       "target": {
-        "time_rd": "2026-07-18 13:00",
-        "lottery": "Anguilla",
-        "draw": "Anguila 1PM"
+        "time_rd": "2026-07-18 14:30",
+        "lottery": "La Nacional",
+        "draw": "Loteria Nacional- Gana Más"
       },
       "best_play": {
-        "time_rd": "2026-07-18 13:00",
-        "lottery": "Anguilla",
-        "draw": "Anguila 1PM",
+        "time_rd": "2026-07-18 14:30",
+        "lottery": "La Nacional",
+        "draw": "Loteria Nacional- Gana Más",
         "top12": [
-          "37",
-          "64",
-          "27",
-          "44",
-          "00",
-          "88",
-          "26",
-          "69",
-          "78",
-          "65",
-          "60",
-          "24"
+          "25",
+          "12",
+          "15",
+          "30",
+          "39",
+          "41",
+          "19",
+          "13",
+          "89",
+          "66",
+          "20",
+          "65"
         ],
         "topq": [
-          "37",
-          "64",
-          "27"
+          "25",
+          "12",
+          "15"
         ],
         "pales": [
-          "37-64",
-          "27-37",
-          "37-44"
+          "12-25",
+          "15-25",
+          "25-30"
         ],
-        "fingerprint": "e2d42b71c1007dc0",
+        "fingerprint": "17dd1d42ac06f567",
         "ok_alert": false,
-        "decision": "⚠️ JUGAR",
-        "best_signal": 0.012667043151475906,
-        "best_a11": 3,
+        "decision": "❌ NO JUGAR",
+        "best_signal": 0.008301267376491247,
+        "best_a11": 4,
         "debug": {
-          "today_observed_nums": 9,
-          "source_pairs_today": 3,
-          "source_rows_hist_used": 1602,
+          "today_observed_nums": 12,
+          "source_pairs_today": 4,
+          "source_rows_hist_used": 1582,
           "top12_overlap_prev": 1,
           "top_intraday": [
             [
@@ -62,11 +62,11 @@
               1
             ],
             [
-              "25",
+              "57",
               1
             ],
             [
-              "30",
+              "15",
               1
             ]
           ]
