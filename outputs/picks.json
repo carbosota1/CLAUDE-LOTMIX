@@ -1,39 +1,105 @@
 {
-  "generated_at": "2026-07-19T12:42:35.848871-04:00",
-  "event_key": "2026-07-19|La Suerte|Quiniela La Suerte",
+  "generated_at": "2026-07-19T16:12:55.597768-04:00",
+  "event_key": "2026-07-19|La Nacional|Loteria Nacional- Gana Más",
   "date": "2026-07-19",
   "picks": [
     {
       "lottery": "Anguilla",
-      "draw": "Anguila 1PM",
-      "time_rd": "2026-07-19 13:00",
+      "draw": "Anguila 6PM",
+      "time_rd": "2026-07-19 18:00",
       "decision": "⚠️ JUGAR",
       "topq": [
-        "37",
-        "81",
-        "26"
+        "47",
+        "39",
+        "93"
       ],
       "top12": [
-        "37",
-        "81",
-        "26",
-        "69",
-        "01",
-        "46",
-        "06",
-        "71",
-        "89",
-        "78",
-        "82",
+        "47",
+        "39",
+        "93",
+        "04",
+        "92",
+        "88",
+        "70",
+        "75",
+        "62",
+        "63",
+        "52",
+        "46"
+      ],
+      "pales": [
+        "39-47",
+        "47-93",
+        "04-47"
+      ],
+      "ok_alert": true,
+      "best_signal": 0.03692083021076464,
+      "best_a11": 4
+    },
+    {
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Noche",
+      "time_rd": "2026-07-19 18:00",
+      "decision": "❌ NO JUGAR",
+      "topq": [
+        "20",
+        "84",
+        "53"
+      ],
+      "top12": [
+        "20",
+        "84",
+        "53",
+        "83",
+        "38",
+        "80",
+        "43",
+        "54",
+        "03",
+        "59",
+        "13",
         "52"
       ],
       "pales": [
-        "37-81",
-        "26-37",
-        "37-69"
+        "20-84",
+        "20-53",
+        "20-83"
       ],
-      "ok_alert": true,
-      "best_signal": 0.014559032458217418,
+      "ok_alert": false,
+      "best_signal": 0.007931959001052044,
+      "best_a11": 3
+    },
+    {
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte 6PM",
+      "time_rd": "2026-07-19 18:00",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "topq": [
+        "23",
+        "92",
+        "41"
+      ],
+      "top12": [
+        "23",
+        "92",
+        "41",
+        "68",
+        "32",
+        "73",
+        "71",
+        "66",
+        "07",
+        "81",
+        "60",
+        "59"
+      ],
+      "pales": [
+        "23-92",
+        "23-41",
+        "23-68"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.02269787878924028,
       "best_a11": 3
     }
   ]
