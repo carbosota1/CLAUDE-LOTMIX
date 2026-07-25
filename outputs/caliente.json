@@ -1,46 +1,26 @@
 {
-  "generado_en": "2026-07-25T16:12:28.115472",
-  "total_loterias": 2,
+  "generado_en": "2026-07-25T18:17:26.696426",
+  "total_loterias": 1,
   "loterias": {
-    "Anguila 6PM": {
+    "Quiniela La Primera Noche": {
       "numeros": [
-        "70",
-        "93",
-        "04",
-        "09",
-        "48",
-        "88",
-        "47"
+        "38",
+        "34",
+        "35",
+        "92",
+        "78",
+        "33"
       ],
-      "signal": 0.03949,
+      "signal": 0.032069,
       "nivel_senal": "muy_alta",
       "decision": "⚠️ JUGAR",
-      "a11": 4.0,
-      "ok_alert": true,
-      "hit_rate_historico": 35.3,
-      "draw": "Anguila 6PM",
-      "lottery": "Anguilla",
-      "date": "",
-      "time_rd": "2026-07-25 18:00"
-    },
-    "Quiniela La Suerte 6PM": {
-      "numeros": [
-        "71",
-        "03",
-        "23",
-        "33",
-        "45"
-      ],
-      "signal": 0.015175,
-      "nivel_senal": "media",
-      "decision": "🔥 JUGAR AGRESIVO",
       "a11": 3.0,
-      "ok_alert": true,
-      "hit_rate_historico": 27.6,
-      "draw": "Quiniela La Suerte 6PM",
-      "lottery": "La Suerte",
+      "ok_alert": false,
+      "hit_rate_historico": 25.0,
+      "draw": "Quiniela La Primera Noche",
+      "lottery": "La Primera",
       "date": "",
-      "time_rd": "2026-07-25 18:00"
+      "time_rd": "2026-07-25 19:00"
     }
   }
 }
