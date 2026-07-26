@@ -1,40 +1,106 @@
 {
-  "generated_at": "2026-07-26T13:17:45.314147-04:00",
-  "event_key": "2026-07-26|Anguilla|Anguila 1PM",
+  "generated_at": "2026-07-26T16:12:39.342167-04:00",
+  "event_key": "2026-07-26|La Nacional|Loteria Nacional- Gana Más",
   "date": "2026-07-26",
   "picks": [
     {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Gana Más",
-      "time_rd": "2026-07-26 14:30",
+      "lottery": "Anguilla",
+      "draw": "Anguila 6PM",
+      "time_rd": "2026-07-26 18:00",
       "decision": "❌ NO JUGAR",
       "topq": [
-        "98",
-        "18",
-        "29"
+        "94",
+        "54",
+        "21"
       ],
       "top12": [
-        "98",
+        "94",
+        "54",
+        "21",
+        "00",
+        "50",
+        "62",
+        "14",
         "18",
-        "29",
-        "19",
-        "65",
         "71",
-        "77",
-        "25",
-        "53",
-        "99",
-        "89",
-        "64"
+        "87",
+        "75",
+        "70"
       ],
       "pales": [
-        "18-98",
-        "29-98",
-        "19-98"
+        "54-94",
+        "21-94",
+        "00-94"
       ],
       "ok_alert": false,
-      "best_signal": 0.006130543363681979,
+      "best_signal": 0.002456322292779522,
+      "best_a11": 4
+    },
+    {
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Noche",
+      "time_rd": "2026-07-26 18:00",
+      "decision": "❌ NO JUGAR",
+      "topq": [
+        "97",
+        "89",
+        "00"
+      ],
+      "top12": [
+        "97",
+        "89",
+        "00",
+        "50",
+        "54",
+        "90",
+        "11",
+        "09",
+        "79",
+        "13",
+        "07",
+        "62"
+      ],
+      "pales": [
+        "89-97",
+        "00-97",
+        "50-97"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.0014330193536783893,
       "best_a11": 2
+    },
+    {
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte 6PM",
+      "time_rd": "2026-07-26 18:00",
+      "decision": "❌ NO JUGAR",
+      "topq": [
+        "21",
+        "71",
+        "01"
+      ],
+      "top12": [
+        "21",
+        "71",
+        "01",
+        "89",
+        "97",
+        "54",
+        "30",
+        "06",
+        "66",
+        "23",
+        "00",
+        "11"
+      ],
+      "pales": [
+        "21-71",
+        "01-21",
+        "21-89"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.007020695284885102,
+      "best_a11": 3
     }
   ]
 }
