@@ -1,23 +1,5 @@
 {
-  "generado_en": "2026-07-26T12:42:28.496603",
-  "total_loterias": 1,
-  "loterias": {
-    "Anguila 1PM": {
-      "numeros": [
-        "01",
-        "71",
-        "52"
-      ],
-      "signal": 0.010584,
-      "nivel_senal": "baja",
-      "decision": "⚠️ JUGAR",
-      "a11": 2.0,
-      "ok_alert": false,
-      "hit_rate_historico": 40.4,
-      "draw": "Anguila 1PM",
-      "lottery": "Anguilla",
-      "date": "",
-      "time_rd": "2026-07-26 13:00"
-    }
-  }
+  "generado_en": "2026-07-26T13:17:45.733201",
+  "total_loterias": 0,
+  "loterias": {}
 }
