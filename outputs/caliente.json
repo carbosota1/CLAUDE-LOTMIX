@@ -1,27 +1,5 @@
 {
-  "generado_en": "2026-07-26T19:17:33.449735",
-  "total_loterias": 1,
-  "loterias": {
-    "Anguila 9PM": {
-      "numeros": [
-        "12",
-        "18",
-        "02",
-        "24",
-        "47",
-        "84",
-        "82"
-      ],
-      "signal": 0.049153,
-      "nivel_senal": "muy_alta",
-      "decision": "⚠️ JUGAR",
-      "a11": 3.0,
-      "ok_alert": true,
-      "hit_rate_historico": 31.7,
-      "draw": "Anguila 9PM",
-      "lottery": "Anguilla",
-      "date": "",
-      "time_rd": "2026-07-26 21:00"
-    }
-  }
+  "generado_en": "2026-07-27T10:34:00.988491",
+  "total_loterias": 0,
+  "loterias": {}
 }
