@@ -1,23 +1,24 @@
 {
-  "generado_en": "2026-07-29T12:42:30.864130",
+  "generado_en": "2026-07-29T13:17:46.396327",
   "total_loterias": 1,
   "loterias": {
-    "Anguila 1PM": {
+    "Loteria Nacional- Gana Más": {
       "numeros": [
-        "37",
-        "67",
-        "21"
+        "99",
+        "19",
+        "76",
+        "71"
       ],
-      "signal": 0.011014,
+      "signal": 0.012625,
       "nivel_senal": "baja",
       "decision": "⚠️ JUGAR",
       "a11": 3.0,
       "ok_alert": false,
-      "hit_rate_historico": 40.4,
-      "draw": "Anguila 1PM",
-      "lottery": "Anguilla",
+      "hit_rate_historico": 42.9,
+      "draw": "Loteria Nacional- Gana Más",
+      "lottery": "La Nacional",
       "date": "",
-      "time_rd": "2026-07-29 13:00"
+      "time_rd": "2026-07-29 14:30"
     }
   }
 }
