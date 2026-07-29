@@ -1,24 +1,45 @@
 {
-  "generado_en": "2026-07-29T13:17:46.396327",
-  "total_loterias": 1,
+  "generado_en": "2026-07-29T16:12:36.361760",
+  "total_loterias": 2,
   "loterias": {
-    "Loteria Nacional- Gana Más": {
+    "Anguila 6PM": {
       "numeros": [
-        "99",
-        "19",
-        "76",
-        "71"
+        "11",
+        "30",
+        "26",
+        "46",
+        "63",
+        "04",
+        "93"
       ],
-      "signal": 0.012625,
-      "nivel_senal": "baja",
+      "signal": 0.03817,
+      "nivel_senal": "muy_alta",
       "decision": "⚠️ JUGAR",
+      "a11": 4.0,
+      "ok_alert": false,
+      "hit_rate_historico": 35.3,
+      "draw": "Anguila 6PM",
+      "lottery": "Anguilla",
+      "date": "",
+      "time_rd": "2026-07-29 18:00"
+    },
+    "Quiniela La Suerte 6PM": {
+      "numeros": [
+        "74",
+        "94",
+        "33",
+        "66"
+      ],
+      "signal": 0.015175,
+      "nivel_senal": "media",
+      "decision": "🔥 JUGAR AGRESIVO",
       "a11": 3.0,
       "ok_alert": false,
-      "hit_rate_historico": 42.9,
-      "draw": "Loteria Nacional- Gana Más",
-      "lottery": "La Nacional",
+      "hit_rate_historico": 27.6,
+      "draw": "Quiniela La Suerte 6PM",
+      "lottery": "La Suerte",
       "date": "",
-      "time_rd": "2026-07-29 14:30"
+      "time_rd": "2026-07-29 18:00"
     }
   }
 }
