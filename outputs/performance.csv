@@ -687,3 +687,4 @@ key,date,time_rd,lottery,draw,result,best_signal,best_a11,ok_alert,decision,hits
 2026-07-30|La Primera|Quiniela La Primera Noche|2026-07-30 19:00,2026-07-30,2026-07-30 19:00,La Primera,Quiniela La Primera Noche,56-06-74,0.028583285135874912,2,True,⚠️ JUGAR,0,1,0,2400.0
 2026-07-30|Anguilla|Anguila 9PM|2026-07-30 21:00,2026-07-30,2026-07-30 21:00,Anguilla,Anguila 9PM,00-56-93,0.025130009090715322,3,True,🔥 JUGAR AGRESIVO,0,0,0,2400.0
 2026-07-30|La Nacional|Loteria Nacional- Noche|2026-07-30 21:00,2026-07-30,2026-07-30 21:00,La Nacional,Loteria Nacional- Noche,60-45-22,0.029022166434593804,3,False,🔥 JUGAR AGRESIVO,0,0,0,2400.0
+2026-07-31|La Primera|Quiniela La Primera|2026-07-31 12:00,2026-07-31,2026-07-31 12:00,La Primera,Quiniela La Primera,33-34-16,0.011573376070932272,1,False,❌ NO JUGAR,0,0,0,534.0
