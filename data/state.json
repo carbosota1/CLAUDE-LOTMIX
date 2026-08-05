@@ -961,9 +961,10 @@
     "2026-08-04|La Nacional|Loteria Nacional- Noche": "done",
     "2026-08-05|La Primera|Quiniela La Primera": "done",
     "2026-08-05|La Suerte|Quiniela La Suerte": "done",
-    "2026-08-05|Anguilla|Anguila 1PM": "done"
+    "2026-08-05|Anguilla|Anguila 1PM": "done",
+    "2026-08-05|La Nacional|Loteria Nacional- Gana Más": "done"
   },
-  "last_event_key": "2026-08-05|Anguilla|Anguila 1PM",
+  "last_event_key": "2026-08-05|La Nacional|Loteria Nacional- Gana Más",
   "sent_by_target_fp": {
     "2026-04-29 18:00|Anguilla|Anguila 6PM": "46aa2993e1c7b45b",
     "2026-04-29 18:00|La Suerte|Quiniela La Suerte 6PM": "81c8734d04c25180",
@@ -1681,21 +1682,23 @@
     "2026-08-05 12:00|La Primera|Quiniela La Primera": "2017a6e90d331d9d",
     "2026-08-05 12:30|La Suerte|Quiniela La Suerte": "4eb0e1c62a1ea105",
     "2026-08-05 13:00|Anguilla|Anguila 1PM": "f102bcddf80cfe7c",
-    "2026-08-05 14:30|La Nacional|Loteria Nacional- Gana Más": "9096b270ebe7fb7b"
+    "2026-08-05 14:30|La Nacional|Loteria Nacional- Gana Más": "9096b270ebe7fb7b",
+    "2026-08-05 18:00|Anguilla|Anguila 6PM": "48d1da05c2f25b45",
+    "2026-08-05 18:00|La Suerte|Quiniela La Suerte 6PM": "e5eafccf9a5c975c"
   },
   "last_wait_key": "2026-08-02|WAIT|1",
   "last_top12": [
-    "07",
-    "71",
-    "77",
-    "87",
-    "19",
-    "94",
-    "65",
-    "25",
-    "76",
-    "57",
-    "81",
-    "50"
+    "47",
+    "66",
+    "73",
+    "85",
+    "26",
+    "04",
+    "68",
+    "17",
+    "11",
+    "53",
+    "82",
+    "46"
   ]
 }
