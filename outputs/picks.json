@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-05T11:45:39.787647-04:00",
-  "event_key": "2026-08-05|TEST|NO-UPDATE",
+  "generated_at": "2026-08-05T12:17:24.634511-04:00",
+  "event_key": "2026-08-05|La Primera|Quiniela La Primera",
   "date": "2026-08-05",
   "picks": [
     {
-      "lottery": "La Primera",
-      "draw": "Quiniela La Primera",
-      "time_rd": "2026-08-05 12:00",
-      "decision": "❌ NO JUGAR",
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte",
+      "time_rd": "2026-08-05 12:30",
+      "decision": "⚠️ JUGAR",
       "topq": [
-        "40",
-        "51",
-        "23"
+        "63",
+        "38",
+        "61"
       ],
       "top12": [
-        "40",
-        "51",
-        "23",
-        "12",
-        "09",
-        "99",
-        "14",
-        "69",
-        "25",
-        "37",
-        "59",
-        "54"
+        "63",
+        "38",
+        "61",
+        "55",
+        "62",
+        "52",
+        "70",
+        "66",
+        "22",
+        "26",
+        "71",
+        "51"
       ],
       "pales": [
-        "40-51",
-        "23-40",
-        "12-40"
+        "38-63",
+        "61-63",
+        "55-63"
       ],
       "ok_alert": false,
-      "best_signal": 0.018658207670122814,
-      "best_a11": 1
+      "best_signal": 0.012400827678495324,
+      "best_a11": 2
     }
   ]
 }
