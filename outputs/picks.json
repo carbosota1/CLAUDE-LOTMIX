@@ -1,39 +1,72 @@
 {
-  "generated_at": "2026-08-08T13:17:46.630702-04:00",
-  "event_key": "2026-08-08|Anguilla|Anguila 1PM",
+  "generated_at": "2026-08-08T16:12:41.251530-04:00",
+  "event_key": "2026-08-08|La Nacional|Loteria Nacional- Gana Más",
   "date": "2026-08-08",
   "picks": [
     {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Gana Más",
-      "time_rd": "2026-08-08 14:30",
-      "decision": "🔥 JUGAR AGRESIVO",
+      "lottery": "Anguilla",
+      "draw": "Anguila 6PM",
+      "time_rd": "2026-08-08 18:00",
+      "decision": "⚠️ JUGAR",
       "topq": [
-        "07",
-        "71",
-        "87"
+        "47",
+        "43",
+        "80"
       ],
       "top12": [
-        "07",
-        "71",
-        "87",
-        "77",
-        "15",
-        "65",
-        "55",
-        "84",
-        "57",
-        "83",
-        "40",
-        "21"
+        "47",
+        "43",
+        "80",
+        "93",
+        "86",
+        "33",
+        "30",
+        "48",
+        "22",
+        "70",
+        "59",
+        "26"
       ],
       "pales": [
-        "07-71",
-        "07-87",
-        "07-77"
+        "43-47",
+        "47-80",
+        "47-93"
       ],
       "ok_alert": true,
-      "best_signal": 0.019084544632125142,
+      "best_signal": 0.05453866861664853,
+      "best_a11": 4
+    },
+    {
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte 6PM",
+      "time_rd": "2026-08-08 18:00",
+      "decision": "⚠️ JUGAR",
+      "topq": [
+        "81",
+        "87",
+        "45"
+      ],
+      "top12": [
+        "81",
+        "87",
+        "45",
+        "13",
+        "46",
+        "73",
+        "06",
+        "71",
+        "09",
+        "53",
+        "21",
+        "30"
+      ],
+      "pales": [
+        "81-87",
+        "45-81",
+        "13-81"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.010447178762812377,
       "best_a11": 3
     }
   ]
