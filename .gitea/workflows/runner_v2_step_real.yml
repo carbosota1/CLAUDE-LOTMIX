@@ -1,0 +1,22 @@
+      # Step existente — SIN CAMBIOS
+      - name: Run python src/runner.py
+        run: python src/runner.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FORCE_NOTIFY: ${{ vars.FORCE_NOTIFY }}   # o el valor que ya usas
+
+      # Step NUEVO — agregar justo después del de arriba
+      - name: Run python src/runner_v2.py (paralelo — solo acumula data)
+        run: python src/runner_v2.py
+        continue-on-error: true
+
+      # Step de commit existente — se le agrega data_v2/ y outputs_v2/
+      - name: Commit histories & picks
+        run: |
+          git config user.name  "gitea-actions[bot]"
+          git config user.email "gitea-actions[bot]@noreply.local"
+          git add data/histories/*.xlsx data/state.json data/picks_log.csv outputs/ || true
+          git add data_v2/ outputs_v2/ || true
+          git diff --cached --quiet || git commit -m "chore: update histories & picks [skip ci]"
+          git push --force
