@@ -1,0 +1,20 @@
+# Agregar este step DESPUÉS del step que corre runner.py en tu workflow
+# existente (mismo job, mismo checkout) — así runner_v2 lee el historial
+# ya actualizado por el runner viejo en esta misma corrida.
+#
+# NO cambia nada del step que ya tienes para runner.py.
+
+      - name: Run runner.py (sistema actual — sin cambios)
+        run: python runner.py
+
+      - name: Run runner_v2.py (paralelo — solo acumula data)
+        run: python runner_v2.py
+        continue-on-error: true   # si v2 falla, no debe tumbar el workflow del sistema viejo
+
+      - name: Commit data_v2 + outputs_v2
+        run: |
+          git config user.name "opv-bot"
+          git config user.email "opv-bot@users.noreply.gitea"
+          git add data_v2 outputs_v2
+          git diff --cached --quiet || git commit -m "runner_v2: acumular data [skip ci]"
+          git push
