@@ -41,10 +41,20 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FORCE_NOTIFY: ${{ github.event.inputs.force_notify || '0' }}
         run: python src/runner.py
+
+      # ============ NUEVO: sistema paralelo, solo acumula data ============
+      - name: Run CLAUDE LOTMIX v2 (paralelo)
+        env:
+          FORCE_NOTIFY: ${{ github.event.inputs.force_notify || '0' }}
+        run: python src/runner_v2.py
+        continue-on-error: true
+      # ======================================================================
+
       - name: Commit updated data
         run: |
           git config user.name  "gitea-actions[bot]"
           git config user.email "gitea-actions[bot]@noreply.local"
           git add data/histories/*.xlsx data/state.json data/picks_log.csv outputs/ || true
+          git add data_v2/ outputs_v2/ || true
           git diff --cached --quiet || git commit -m "chore: update histories & picks [skip ci]"
           git push --force
