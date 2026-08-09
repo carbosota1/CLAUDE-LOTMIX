@@ -1,40 +1,106 @@
 {
-  "generated_at": "2026-08-09T13:18:20.297783-04:00",
-  "event_key": "2026-08-09|Anguilla|Anguila 1PM",
+  "generated_at": "2026-08-09T16:13:07.044832-04:00",
+  "event_key": "2026-08-09|La Nacional|Loteria Nacional- Gana Más",
   "date": "2026-08-09",
   "picks": [
     {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Gana Más",
-      "time_rd": "2026-08-09 14:30",
-      "decision": "❌ NO JUGAR",
+      "lottery": "Anguilla",
+      "draw": "Anguila 6PM",
+      "time_rd": "2026-08-09 18:00",
+      "decision": "⚠️ JUGAR",
       "topq": [
-        "40",
-        "80",
-        "34"
+        "39",
+        "93",
+        "47"
       ],
       "top12": [
-        "40",
-        "80",
-        "34",
-        "16",
-        "57",
+        "39",
+        "93",
+        "47",
+        "92",
+        "75",
+        "72",
+        "48",
+        "64",
         "63",
-        "82",
-        "85",
-        "37",
-        "89",
-        "65",
+        "80",
+        "07",
         "46"
       ],
       "pales": [
-        "40-80",
-        "34-40",
-        "16-40"
+        "39-93",
+        "39-47",
+        "39-92"
+      ],
+      "ok_alert": true,
+      "best_signal": 0.05453866861664853,
+      "best_a11": 4
+    },
+    {
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Noche",
+      "time_rd": "2026-08-09 18:00",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "topq": [
+        "37",
+        "03",
+        "84"
+      ],
+      "top12": [
+        "37",
+        "03",
+        "84",
+        "91",
+        "52",
+        "29",
+        "77",
+        "43",
+        "38",
+        "63",
+        "80",
+        "90"
+      ],
+      "pales": [
+        "03-37",
+        "37-84",
+        "37-91"
       ],
       "ok_alert": false,
-      "best_signal": 0.004717628671674243,
-      "best_a11": 2
+      "best_signal": 0.016024790063221734,
+      "best_a11": 3
+    },
+    {
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte 6PM",
+      "time_rd": "2026-08-09 18:00",
+      "decision": "⚠️ JUGAR",
+      "topq": [
+        "81",
+        "41",
+        "59"
+      ],
+      "top12": [
+        "81",
+        "41",
+        "59",
+        "46",
+        "32",
+        "79",
+        "47",
+        "73",
+        "09",
+        "27",
+        "53",
+        "84"
+      ],
+      "pales": [
+        "41-81",
+        "59-81",
+        "46-81"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.01107313173789567,
+      "best_a11": 3
     }
   ]
 }
