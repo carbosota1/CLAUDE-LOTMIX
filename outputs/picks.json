@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-14T12:42:07.447835-04:00",
-  "event_key": "2026-08-14|La Suerte|Quiniela La Suerte",
+  "generated_at": "2026-08-14T13:17:25.184478-04:00",
+  "event_key": "2026-08-14|Anguilla|Anguila 1PM",
   "date": "2026-08-14",
   "picks": [
     {
-      "lottery": "Anguilla",
-      "draw": "Anguila 1PM",
-      "time_rd": "2026-08-14 13:00",
-      "decision": "❌ NO JUGAR",
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Gana Más",
+      "time_rd": "2026-08-14 14:30",
+      "decision": "🔥 JUGAR AGRESIVO",
       "topq": [
-        "00",
-        "62",
-        "67"
+        "07",
+        "71",
+        "94"
       ],
       "top12": [
-        "00",
-        "62",
-        "67",
-        "60",
-        "26",
+        "07",
+        "71",
+        "94",
+        "87",
+        "42",
+        "30",
+        "08",
+        "63",
         "83",
-        "57",
-        "69",
+        "40",
         "65",
-        "41",
-        "24",
-        "48"
+        "57"
       ],
       "pales": [
-        "00-62",
-        "00-67",
-        "00-60"
+        "07-71",
+        "07-94",
+        "07-87"
       ],
-      "ok_alert": false,
-      "best_signal": 0.006637929012163049,
-      "best_a11": 2
+      "ok_alert": true,
+      "best_signal": 0.019084544632125142,
+      "best_a11": 3
     }
   ]
 }
