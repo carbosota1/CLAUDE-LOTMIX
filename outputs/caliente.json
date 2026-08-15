@@ -1,5 +1,24 @@
 {
-  "generado_en": "2026-08-15T10:33:40.264757",
-  "total_loterias": 0,
-  "loterias": {}
+  "generado_en": "2026-08-15T12:17:05.094295",
+  "total_loterias": 1,
+  "loterias": {
+    "Quiniela La Suerte": {
+      "numeros": [
+        "38",
+        "63",
+        "70",
+        "61"
+      ],
+      "signal": 0.01634,
+      "nivel_senal": "media",
+      "decision": "⚠️ JUGAR",
+      "a11": 2.0,
+      "ok_alert": false,
+      "hit_rate_historico": 34.1,
+      "draw": "Quiniela La Suerte",
+      "lottery": "La Suerte",
+      "date": "",
+      "time_rd": "2026-08-15 12:30"
+    }
+  }
 }
