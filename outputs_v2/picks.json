@@ -1,106 +1,40 @@
 {
-  "generated_at": "2026-08-16T16:12:51.912795-04:00",
-  "event_key": "2026-08-16|La Nacional|Loteria Nacional- Gana Más",
-  "date": "2026-08-16",
+  "generated_at": "2026-08-17T10:33:56.331156-04:00",
+  "event_key": "2026-08-17|Anguilla|Anguila 10AM",
+  "date": "2026-08-17",
   "picks": [
     {
-      "lottery": "Anguilla",
-      "draw": "Anguila 6PM",
-      "time_rd": "2026-08-16 18:00",
-      "decision": "⚠️ JUGAR",
-      "topq": [
-        "39",
-        "93",
-        "47"
-      ],
-      "top12": [
-        "39",
-        "93",
-        "47",
-        "86",
-        "92",
-        "75",
-        "46",
-        "64",
-        "57",
-        "48",
-        "51",
-        "66"
-      ],
-      "pales": [
-        "39-93",
-        "39-47",
-        "39-86"
-      ],
-      "ok_alert": true,
-      "best_signal": 0.05453866861664853,
-      "best_a11": 4
-    },
-    {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Noche",
-      "time_rd": "2026-08-16 18:00",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "topq": [
-        "37",
-        "38",
-        "05"
-      ],
-      "top12": [
-        "37",
-        "38",
-        "05",
-        "91",
-        "10",
-        "43",
-        "52",
-        "03",
-        "53",
-        "59",
-        "61",
-        "46"
-      ],
-      "pales": [
-        "37-38",
-        "05-37",
-        "37-91"
-      ],
-      "ok_alert": false,
-      "best_signal": 0.016558040522295186,
-      "best_a11": 3
-    },
-    {
-      "lottery": "La Suerte",
-      "draw": "Quiniela La Suerte 6PM",
-      "time_rd": "2026-08-16 18:00",
+      "lottery": "La Primera",
+      "draw": "Quiniela La Primera",
+      "time_rd": "2026-08-17 12:00",
       "decision": "❌ NO JUGAR",
       "topq": [
-        "81",
-        "89",
-        "41"
+        "88",
+        "96",
+        "76"
       ],
       "top12": [
-        "81",
-        "89",
-        "41",
-        "32",
-        "47",
-        "71",
-        "09",
-        "21",
+        "88",
+        "96",
+        "76",
+        "99",
+        "58",
+        "73",
+        "14",
         "51",
-        "59",
-        "46",
-        "53"
+        "10",
+        "23",
+        "93",
+        "09"
       ],
       "pales": [
-        "81-89",
-        "41-81",
-        "32-81"
+        "88-96",
+        "76-88",
+        "88-99"
       ],
       "ok_alert": false,
-      "best_signal": 0.008645745478711228,
-      "best_a11": 3
+      "best_signal": 0.010201503644498157,
+      "best_a11": 1
     }
   ]
 }
