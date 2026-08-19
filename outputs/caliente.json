@@ -1,23 +1,45 @@
 {
-  "generado_en": "2026-08-19T18:17:35.038557",
-  "total_loterias": 1,
+  "generado_en": "2026-08-19T19:28:20.194548",
+  "total_loterias": 2,
   "loterias": {
-    "Quiniela La Primera Noche": {
+    "Anguila 9PM": {
       "numeros": [
-        "72",
-        "19",
-        "97"
+        "18",
+        "79",
+        "49",
+        "02",
+        "12",
+        "69",
+        "09"
       ],
-      "signal": 0.014997,
+      "signal": 0.038794,
+      "nivel_senal": "muy_alta",
+      "decision": "⚠️ JUGAR",
+      "a11": 4.0,
+      "ok_alert": true,
+      "hit_rate_historico": 31.7,
+      "draw": "Anguila 9PM",
+      "lottery": "Anguilla",
+      "date": "",
+      "time_rd": "2026-08-19 21:00"
+    },
+    "Loteria Nacional- Noche": {
+      "numeros": [
+        "29",
+        "37",
+        "91",
+        "28"
+      ],
+      "signal": 0.014475,
       "nivel_senal": "baja",
       "decision": "⚠️ JUGAR",
-      "a11": 2.0,
+      "a11": 3.0,
       "ok_alert": false,
-      "hit_rate_historico": 25.0,
-      "draw": "Quiniela La Primera Noche",
-      "lottery": "La Primera",
+      "hit_rate_historico": 35.1,
+      "draw": "Loteria Nacional- Noche",
+      "lottery": "La Nacional",
       "date": "",
-      "time_rd": "2026-08-19 19:00"
+      "time_rd": "2026-08-19 21:00"
     }
   }
 }
