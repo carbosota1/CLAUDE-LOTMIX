@@ -1,5 +1,26 @@
 {
-  "generado_en": "2026-08-20T12:42:07.154307",
-  "total_loterias": 0,
-  "loterias": {}
+  "generado_en": "2026-08-20T13:17:15.134595",
+  "total_loterias": 1,
+  "loterias": {
+    "Loteria Nacional- Gana Más": {
+      "numeros": [
+        "96",
+        "71",
+        "87",
+        "15",
+        "65",
+        "07"
+      ],
+      "signal": 0.023098,
+      "nivel_senal": "alta",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "a11": 3.0,
+      "ok_alert": true,
+      "hit_rate_historico": 42.9,
+      "draw": "Loteria Nacional- Gana Más",
+      "lottery": "La Nacional",
+      "date": "",
+      "time_rd": "2026-08-20 14:30"
+    }
+  }
 }
