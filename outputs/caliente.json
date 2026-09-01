@@ -1,26 +1,24 @@
 {
-  "generado_en": "2026-09-01T13:17:35.645979",
+  "generado_en": "2026-09-01T18:27:46.806974",
   "total_loterias": 1,
   "loterias": {
-    "Loteria Nacional- Gana Más": {
+    "Quiniela La Primera Noche": {
       "numeros": [
-        "96",
-        "98",
-        "65",
-        "62",
-        "37",
-        "07"
+        "47",
+        "85",
+        "20",
+        "19"
       ],
-      "signal": 0.022105,
-      "nivel_senal": "alta",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "a11": 3.0,
-      "ok_alert": false,
-      "hit_rate_historico": 42.9,
-      "draw": "Loteria Nacional- Gana Más",
-      "lottery": "La Nacional",
+      "signal": 0.015706,
+      "nivel_senal": "media",
+      "decision": "⚠️ JUGAR",
+      "a11": 2.0,
+      "ok_alert": true,
+      "hit_rate_historico": 25.0,
+      "draw": "Quiniela La Primera Noche",
+      "lottery": "La Primera",
       "date": "",
-      "time_rd": "2026-09-01 14:30"
+      "time_rd": "2026-09-01 19:00"
     }
   }
 }
