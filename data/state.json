@@ -1234,7 +1234,8 @@
     "2026-09-01|Anguilla|Anguila 1PM": "done",
     "2026-09-01|La Nacional|Loteria Nacional- Gana Más": "done",
     "2026-09-01|Anguilla|Anguila 6PM": "done",
-    "2026-09-01|La Suerte|Quiniela La Suerte 6PM": "done"
+    "2026-09-01|La Suerte|Quiniela La Suerte 6PM": "done",
+    "2026-09-01|La Primera|Quiniela La Primera Noche": "done"
   },
   "last_event_key": "2026-09-01|La Suerte|Quiniela La Suerte 6PM",
   "sent_by_target_fp": {
