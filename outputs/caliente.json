@@ -1,24 +1,23 @@
 {
-  "generado_en": "2026-09-03T16:13:45.548370",
+  "generado_en": "2026-09-03T18:20:11.119286",
   "total_loterias": 1,
   "loterias": {
-    "Anguila 6PM": {
+    "Quiniela La Primera Noche": {
       "numeros": [
-        "72",
-        "13",
-        "49",
-        "93"
+        "74",
+        "55",
+        "78"
       ],
-      "signal": 0.014606,
+      "signal": 0.014834,
       "nivel_senal": "baja",
       "decision": "⚠️ JUGAR",
-      "a11": 5.0,
-      "ok_alert": false,
-      "hit_rate_historico": 35.3,
-      "draw": "Anguila 6PM",
-      "lottery": "Anguilla",
+      "a11": 2.0,
+      "ok_alert": true,
+      "hit_rate_historico": 25.0,
+      "draw": "Quiniela La Primera Noche",
+      "lottery": "La Primera",
       "date": "",
-      "time_rd": "2026-09-03 18:00"
+      "time_rd": "2026-09-03 19:00"
     }
   }
 }
