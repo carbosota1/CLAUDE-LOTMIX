@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-09-04T10:35:37.555852-04:00",
-  "event_key": "2026-09-04|Anguilla|Anguila 10AM",
+  "generated_at": "2026-09-04T13:20:46.201273-04:00",
+  "event_key": "2026-09-04|Anguilla|Anguila 1PM",
   "date": "2026-09-04",
   "picks": [
     {
-      "lottery": "La Primera",
-      "draw": "Quiniela La Primera",
-      "time_rd": "2026-09-04 12:00",
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Gana Más",
+      "time_rd": "2026-09-04 14:30",
       "decision": "❌ NO JUGAR",
       "topq": [
-        "85",
-        "13",
-        "40"
+        "07",
+        "98",
+        "19"
       ],
       "top12": [
-        "85",
-        "13",
-        "40",
-        "99",
-        "51",
-        "20",
-        "08",
-        "88",
+        "07",
+        "98",
+        "19",
+        "92",
+        "54",
+        "53",
         "65",
-        "34",
-        "56",
-        "17"
+        "41",
+        "14",
+        "37",
+        "40",
+        "20"
       ],
       "pales": [
-        "13-85",
-        "40-85",
-        "85-99"
+        "07-98",
+        "07-19",
+        "07-92"
       ],
       "ok_alert": false,
-      "best_signal": 0.01022721857237246,
-      "best_a11": 1
+      "best_signal": 0.005303502152181886,
+      "best_a11": 4
     }
   ]
 }
