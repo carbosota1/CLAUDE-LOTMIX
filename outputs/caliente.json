@@ -1,5 +1,24 @@
 {
-  "generado_en": "2026-09-10T12:43:33.643171",
-  "total_loterias": 0,
-  "loterias": {}
+  "generado_en": "2026-09-10T13:19:18.090050",
+  "total_loterias": 1,
+  "loterias": {
+    "Loteria Nacional- Gana Más": {
+      "numeros": [
+        "89",
+        "27",
+        "83",
+        "25"
+      ],
+      "signal": 0.011618,
+      "nivel_senal": "baja",
+      "decision": "⚠️ JUGAR",
+      "a11": 4.0,
+      "ok_alert": false,
+      "hit_rate_historico": 42.9,
+      "draw": "Loteria Nacional- Gana Más",
+      "lottery": "La Nacional",
+      "date": "",
+      "time_rd": "2026-09-10 14:30"
+    }
+  }
 }
