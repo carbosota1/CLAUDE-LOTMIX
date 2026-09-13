@@ -1,40 +1,106 @@
 {
-  "generated_at": "2026-09-13T13:18:08.556550-04:00",
-  "event_key": "2026-09-13|Anguilla|Anguila 1PM",
+  "generated_at": "2026-09-13T16:13:13.514137-04:00",
+  "event_key": "2026-09-13|La Nacional|Loteria Nacional- Gana Más",
   "date": "2026-09-13",
   "picks": [
     {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Gana Más",
-      "time_rd": "2026-09-13 14:30",
-      "decision": "❌ NO JUGAR",
+      "lottery": "Anguilla",
+      "draw": "Anguila 6PM",
+      "time_rd": "2026-09-13 18:00",
+      "decision": "🔥 JUGAR AGRESIVO",
       "topq": [
-        "25",
-        "89",
-        "77"
+        "86",
+        "13",
+        "47"
       ],
       "top12": [
-        "25",
-        "89",
-        "77",
+        "86",
+        "13",
+        "47",
+        "01",
+        "75",
+        "15",
+        "24",
+        "92",
+        "97",
+        "07",
         "46",
-        "93",
-        "41",
-        "96",
-        "87",
-        "40",
-        "20",
-        "11",
-        "81"
+        "87"
       ],
       "pales": [
-        "25-89",
-        "25-77",
-        "25-46"
+        "13-86",
+        "47-86",
+        "01-86"
       ],
       "ok_alert": false,
-      "best_signal": 0.009482549223861618,
-      "best_a11": 4
+      "best_signal": 0.0234782236744186,
+      "best_a11": 3
+    },
+    {
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Noche",
+      "time_rd": "2026-09-13 18:00",
+      "decision": "⚠️ JUGAR",
+      "topq": [
+        "37",
+        "52",
+        "57"
+      ],
+      "top12": [
+        "37",
+        "52",
+        "57",
+        "81",
+        "38",
+        "43",
+        "53",
+        "78",
+        "95",
+        "03",
+        "28",
+        "87"
+      ],
+      "pales": [
+        "37-52",
+        "37-57",
+        "37-81"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.011695725597503174,
+      "best_a11": 3
+    },
+    {
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte 6PM",
+      "time_rd": "2026-09-13 18:00",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "topq": [
+        "56",
+        "31",
+        "93"
+      ],
+      "top12": [
+        "56",
+        "31",
+        "93",
+        "82",
+        "32",
+        "59",
+        "88",
+        "02",
+        "00",
+        "38",
+        "07",
+        "28"
+      ],
+      "pales": [
+        "31-56",
+        "56-93",
+        "56-82"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.028047807800099543,
+      "best_a11": 3
     }
   ]
 }
