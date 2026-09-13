@@ -1,63 +1,23 @@
 {
-  "generado_en": "2026-09-13T16:13:14.030145",
-  "total_loterias": 3,
+  "generado_en": "2026-09-13T18:18:13.786948",
+  "total_loterias": 1,
   "loterias": {
-    "Anguila 6PM": {
+    "Quiniela La Primera Noche": {
       "numeros": [
-        "92",
-        "47",
-        "24",
-        "07",
-        "46",
-        "86"
+        "37",
+        "83",
+        "20"
       ],
-      "signal": 0.023478,
-      "nivel_senal": "alta",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "a11": 3.0,
-      "ok_alert": false,
-      "hit_rate_historico": 35.3,
-      "draw": "Anguila 6PM",
-      "lottery": "Anguilla",
-      "date": "",
-      "time_rd": "2026-09-13 18:00"
-    },
-    "Loteria Nacional- Noche": {
-      "numeros": [
-        "38",
-        "57",
-        "81",
-        "37"
-      ],
-      "signal": 0.011696,
+      "signal": 0.013333,
       "nivel_senal": "baja",
       "decision": "⚠️ JUGAR",
       "a11": 3.0,
       "ok_alert": false,
-      "hit_rate_historico": 35.1,
-      "draw": "Loteria Nacional- Noche",
-      "lottery": "La Nacional",
+      "hit_rate_historico": 25.0,
+      "draw": "Quiniela La Primera Noche",
+      "lottery": "La Primera",
       "date": "",
-      "time_rd": "2026-09-13 18:00"
-    },
-    "Quiniela La Suerte 6PM": {
-      "numeros": [
-        "02",
-        "38",
-        "56",
-        "31",
-        "93"
-      ],
-      "signal": 0.028048,
-      "nivel_senal": "alta",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "a11": 3.0,
-      "ok_alert": false,
-      "hit_rate_historico": 27.6,
-      "draw": "Quiniela La Suerte 6PM",
-      "lottery": "La Suerte",
-      "date": "",
-      "time_rd": "2026-09-13 18:00"
+      "time_rd": "2026-09-13 19:00"
     }
   }
 }
