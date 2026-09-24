@@ -4,17 +4,17 @@ on:
     paths-ignore:
       - '**'
   schedule:
-    - cron: "30 14 * * *"  # 11:30 AM RD
-    - cron: "15 16 * * *"  # 12:15 PM RD
-    - cron: "40 16 * * *"  # 12:40 PM RD
-    - cron: "15 17 * * *"  # 1:15 PM RD
-    - cron: "10 20 * * *"  # 4:10 PM RD
-    - cron: "15 22 * * *"  # 6:15 PM RD
-    - cron: "15 23 * * *"  # 7:15 PM RD
+    - cron: "30 14 * * *"
+    - cron: "15 16 * * *"
+    - cron: "40 16 * * *"
+    - cron: "15 17 * * *"
+    - cron: "10 20 * * *"
+    - cron: "15 22 * * *"
+    - cron: "15 23 * * *"
   workflow_dispatch:
     inputs:
       force_notify:
-        description: "Forzar notificación Telegram (FORCE_NOTIFY=1)"
+        description: "Forzar notificacion Telegram (FORCE_NOTIFY=1)"
         required: false
         default: "1"
         type: choice
@@ -31,10 +31,16 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           token: ${{ secrets.GITEA_TOKEN }}
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: pip-
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install --retries 5 --timeout 60 -r requirements.txt
       - name: Run CLAUDE LOTMIX
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -42,13 +48,11 @@ jobs:
           FORCE_NOTIFY: ${{ github.event.inputs.force_notify || '0' }}
         run: python src/runner.py
 
-      # ============ NUEVO: sistema paralelo, solo acumula data ============
       - name: Run CLAUDE LOTMIX v2 (paralelo)
         env:
           FORCE_NOTIFY: ${{ github.event.inputs.force_notify || '0' }}
         run: python src/runner_v2.py
         continue-on-error: true
-      # ======================================================================
 
       - name: Commit updated data
         run: |
