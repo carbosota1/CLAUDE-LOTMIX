@@ -33,12 +33,6 @@ jobs:
         with:
           fetch-depth: 1
           token: ${{ secrets.GITEA_TOKEN }}
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: pip-
       - name: Install dependencies
         run: pip install --retries 5 --timeout 60 -r requirements.txt
       - name: Run CLAUDE LOTMIX
