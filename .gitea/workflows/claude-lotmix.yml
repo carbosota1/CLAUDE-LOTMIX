@@ -34,7 +34,12 @@ jobs:
           fetch-depth: 1
           token: ${{ secrets.GITEA_TOKEN }}
       - name: Install dependencies
-        run: pip install --retries 5 --timeout 60 -r requirements.txt
+        run: |
+          for i in 1 2 3 4 5; do
+            pip install --timeout 60 -r requirements.txt && break
+            echo "pip install falló, reintentando en 10s..."
+            sleep 10
+          done
       - name: Run CLAUDE LOTMIX
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -55,4 +60,4 @@ jobs:
           git add data/histories/*.xlsx data/state.json data/picks_log.csv outputs/ || true
           git add data_v2/ outputs_v2/ || true
           git diff --cached --quiet || git commit -m "chore: update histories & picks [skip ci]"
-          git push --force
+          for i in 1 2 3 4 5; do git push --force && break || sleep 10; done
