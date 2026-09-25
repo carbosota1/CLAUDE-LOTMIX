@@ -1,5 +1,25 @@
 {
-  "generado_en": "2026-09-25T17:17:59.706942",
-  "total_loterias": 0,
-  "loterias": {}
+  "generado_en": "2026-09-25T20:12:53.518186",
+  "total_loterias": 1,
+  "loterias": {
+    "Quiniela La Suerte 6PM": {
+      "numeros": [
+        "93",
+        "07",
+        "70",
+        "73",
+        "13"
+      ],
+      "signal": 0.028048,
+      "nivel_senal": "alta",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "a11": 3.0,
+      "ok_alert": false,
+      "hit_rate_historico": 27.6,
+      "draw": "Quiniela La Suerte 6PM",
+      "lottery": "La Suerte",
+      "date": "",
+      "time_rd": "2026-09-25 18:00"
+    }
+  }
 }
