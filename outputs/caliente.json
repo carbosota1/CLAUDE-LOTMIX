@@ -1,25 +1,23 @@
 {
-  "generado_en": "2026-09-25T20:12:53.518186",
+  "generado_en": "2026-09-25T22:18:12.399243",
   "total_loterias": 1,
   "loterias": {
-    "Quiniela La Suerte 6PM": {
+    "Quiniela La Primera Noche": {
       "numeros": [
-        "93",
-        "07",
-        "70",
-        "73",
-        "13"
+        "51",
+        "50",
+        "40"
       ],
-      "signal": 0.028048,
-      "nivel_senal": "alta",
-      "decision": "🔥 JUGAR AGRESIVO",
+      "signal": 0.014012,
+      "nivel_senal": "baja",
+      "decision": "⚠️ JUGAR",
       "a11": 3.0,
       "ok_alert": false,
-      "hit_rate_historico": 27.6,
-      "draw": "Quiniela La Suerte 6PM",
-      "lottery": "La Suerte",
+      "hit_rate_historico": 25.0,
+      "draw": "Quiniela La Primera Noche",
+      "lottery": "La Primera",
       "date": "",
-      "time_rd": "2026-09-25 18:00"
+      "time_rd": "2026-09-25 19:00"
     }
   }
 }
