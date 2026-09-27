@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-09-27T10:50:34.439691-04:00",
-  "event_key": "2026-09-27|TEST|NO-UPDATE",
+  "generated_at": "2026-09-27T12:17:48.613218-04:00",
+  "event_key": "2026-09-27|La Primera|Quiniela La Primera",
   "date": "2026-09-27",
   "picks": [
     {
-      "lottery": "La Primera",
-      "draw": "Quiniela La Primera",
-      "time_rd": "2026-09-27 12:00",
-      "decision": "❌ NO JUGAR",
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte",
+      "time_rd": "2026-09-27 12:30",
+      "decision": "⚠️ JUGAR",
       "topq": [
-        "18",
-        "20",
-        "14"
+        "99",
+        "61",
+        "34"
       ],
       "top12": [
-        "18",
-        "20",
-        "14",
+        "99",
+        "61",
+        "34",
+        "52",
+        "86",
+        "02",
+        "08",
+        "75",
+        "49",
+        "07",
         "54",
-        "83",
-        "67",
-        "46",
-        "64",
-        "24",
-        "31",
-        "97",
-        "91"
+        "18"
       ],
       "pales": [
-        "18-20",
-        "14-18",
-        "18-54"
+        "61-99",
+        "34-99",
+        "52-99"
       ],
       "ok_alert": false,
-      "best_signal": 0.011013998173461433,
-      "best_a11": 1
+      "best_signal": 0.015417619551002737,
+      "best_a11": 2
     }
   ]
 }
