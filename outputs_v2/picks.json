@@ -1,40 +1,106 @@
 {
-  "generated_at": "2026-09-27T13:18:07.527004-04:00",
-  "event_key": "2026-09-27|Anguilla|Anguila 1PM",
+  "generated_at": "2026-09-27T16:13:07.475283-04:00",
+  "event_key": "2026-09-27|La Nacional|Loteria Nacional- Gana Más",
   "date": "2026-09-27",
   "picks": [
     {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Gana Más",
-      "time_rd": "2026-09-27 14:30",
-      "decision": "❌ NO JUGAR",
+      "lottery": "Anguilla",
+      "draw": "Anguila 6PM",
+      "time_rd": "2026-09-27 18:00",
+      "decision": "⚠️ JUGAR",
       "topq": [
-        "99",
-        "26",
-        "09"
+        "13",
+        "46",
+        "31"
       ],
       "top12": [
-        "99",
-        "26",
-        "09",
+        "13",
+        "46",
+        "31",
+        "72",
+        "87",
         "47",
-        "77",
-        "41",
-        "89",
-        "19",
-        "60",
-        "22",
-        "51",
-        "54"
+        "15",
+        "01",
+        "74",
+        "34",
+        "37",
+        "03"
       ],
       "pales": [
-        "26-99",
-        "09-99",
-        "47-99"
+        "13-46",
+        "13-31",
+        "13-72"
       ],
       "ok_alert": false,
-      "best_signal": 0.0026120531652624422,
-      "best_a11": 2
+      "best_signal": 0.014133229214828976,
+      "best_a11": 3
+    },
+    {
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Noche",
+      "time_rd": "2026-09-27 18:00",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "topq": [
+        "50",
+        "77",
+        "53"
+      ],
+      "top12": [
+        "50",
+        "77",
+        "53",
+        "37",
+        "90",
+        "79",
+        "28",
+        "78",
+        "95",
+        "74",
+        "87",
+        "03"
+      ],
+      "pales": [
+        "50-77",
+        "50-53",
+        "37-50"
+      ],
+      "ok_alert": true,
+      "best_signal": 0.015266085333240259,
+      "best_a11": 4
+    },
+    {
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte 6PM",
+      "time_rd": "2026-09-27 18:00",
+      "decision": "⚠️ JUGAR",
+      "topq": [
+        "13",
+        "93",
+        "47"
+      ],
+      "top12": [
+        "13",
+        "93",
+        "47",
+        "75",
+        "82",
+        "38",
+        "32",
+        "70",
+        "59",
+        "08",
+        "35",
+        "53"
+      ],
+      "pales": [
+        "13-93",
+        "13-47",
+        "13-75"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.013278751303470102,
+      "best_a11": 3
     }
   ]
 }
