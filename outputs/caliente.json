@@ -1,24 +1,24 @@
 {
-  "generado_en": "2026-10-01T16:18:53.185497",
+  "generado_en": "2026-10-01T17:18:21.951100",
   "total_loterias": 1,
   "loterias": {
-    "Quiniela La Suerte": {
+    "Loteria Nacional- Gana Más": {
       "numeros": [
-        "34",
-        "29",
-        "02",
-        "99"
+        "47",
+        "15",
+        "13",
+        "27"
       ],
-      "signal": 0.020451,
-      "nivel_senal": "media",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "a11": 3.0,
+      "signal": 0.010046,
+      "nivel_senal": "baja",
+      "decision": "⚠️ JUGAR",
+      "a11": 2.0,
       "ok_alert": false,
-      "hit_rate_historico": 34.1,
-      "draw": "Quiniela La Suerte",
-      "lottery": "La Suerte",
+      "hit_rate_historico": 42.9,
+      "draw": "Loteria Nacional- Gana Más",
+      "lottery": "La Nacional",
       "date": "",
-      "time_rd": "2026-10-01 12:30"
+      "time_rd": "2026-10-01 14:30"
     }
   }
 }
