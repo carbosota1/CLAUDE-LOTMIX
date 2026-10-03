@@ -1,24 +1,5 @@
 {
-  "generado_en": "2026-10-02T22:12:04.624827",
-  "total_loterias": 1,
-  "loterias": {
-    "Quiniela La Primera Noche": {
-      "numeros": [
-        "58",
-        "50",
-        "67",
-        "57"
-      ],
-      "signal": 0.016067,
-      "nivel_senal": "media",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "a11": 3.0,
-      "ok_alert": false,
-      "hit_rate_historico": 25.0,
-      "draw": "Quiniela La Primera Noche",
-      "lottery": "La Primera",
-      "date": "",
-      "time_rd": "2026-10-02 19:00"
-    }
-  }
+  "generado_en": "2026-10-03T14:32:36.741735",
+  "total_loterias": 0,
+  "loterias": {}
 }
