@@ -1,44 +1,25 @@
 {
-  "generado_en": "2026-10-06T20:13:56.941457",
-  "total_loterias": 2,
+  "generado_en": "2026-10-06T22:19:14.520792",
+  "total_loterias": 1,
   "loterias": {
-    "Anguila 6PM": {
+    "Quiniela La Primera Noche": {
       "numeros": [
-        "46",
-        "28",
-        "48",
-        "31",
-        "07",
-        "39"
+        "64",
+        "50",
+        "09",
+        "68",
+        "26"
       ],
-      "signal": 0.023051,
-      "nivel_senal": "alta",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "a11": 4.0,
-      "ok_alert": false,
-      "hit_rate_historico": 35.3,
-      "draw": "Anguila 6PM",
-      "lottery": "Anguilla",
-      "date": "",
-      "time_rd": "2026-10-06 18:00"
-    },
-    "Quiniela La Suerte 6PM": {
-      "numeros": [
-        "20",
-        "08",
-        "45",
-        "75"
-      ],
-      "signal": 0.021259,
+      "signal": 0.020736,
       "nivel_senal": "media",
-      "decision": "⚠️ JUGAR",
-      "a11": 2.0,
-      "ok_alert": false,
-      "hit_rate_historico": 27.6,
-      "draw": "Quiniela La Suerte 6PM",
-      "lottery": "La Suerte",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "a11": 3.0,
+      "ok_alert": true,
+      "hit_rate_historico": 25.0,
+      "draw": "Quiniela La Primera Noche",
+      "lottery": "La Primera",
       "date": "",
-      "time_rd": "2026-10-06 18:00"
+      "time_rd": "2026-10-06 19:00"
     }
   }
 }
