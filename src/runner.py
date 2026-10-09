@@ -126,7 +126,7 @@ MAX_RECENT_FREQ      = 2
 # Versión del modelo — súbela cada vez que cambies pesos, umbrales o lógica
 # de scoring/alerta. Permite comparar "antes vs después" sin mezclar datos.
 # ---------------------------------------------------------------------------
-MODEL_VERSION = "runner_v1_ensemble40_30_30_a11w010"
+MODEL_VERSION = "runner_v2_sweetspot_draw_noalert_2026-10-09"
 
 
 # ===========================================================================
@@ -1109,27 +1109,40 @@ def analyze_target_and_maybe_notify(
         })
 
     # -----------------------------------------------------------------------
-    # Umbrales por lotería — calibrados con datos reales
+    # Umbrales por lotería y sorteo — calibrados con backtesting real
+    # Sweet spot por draw: señal dentro de este rango → mejor hit rate Top12
     # -----------------------------------------------------------------------
     lottery_name = target["lottery"]
     draw_name = target["draw"]
 
-    # Rango óptimo 0.010-0.015 tiene 55% hit rate en los datos
-    # a11=3 es el punto de inflexión real
-    thresholds = {
-        "La Nacional": (0.010, 3),
-        "Anguilla":    (0.010, 3),
-        "La Primera":  (0.010, 2),
-        "La Suerte":   (0.010, 3),
+    # Rangos calibrados con backtesting sobre 1,118 sorteos (2026-05-20 a 2026-10-08)
+    # Fuera del rango → NO JUGAR (señal débil o ruido)
+    DRAW_SIGNAL_SWEET_SPOT = {
+        "Anguila 1PM":                  (0.015, 0.025),
+        "Anguila 6PM":                  (0.010, 0.030),
+        "Anguila 9PM":                  (0.020, 0.030),
+        "Loteria Nacional- Gana Más":   (0.010, 0.020),
+        "Loteria Nacional- Noche":      (0.015, 0.030),
+        "Quiniela La Primera":          (0.010, 0.025),
+        "Quiniela La Primera Noche":    (0.010, 0.030),
+        "Quiniela La Suerte":           (0.015, 0.030),
+        "Quiniela La Suerte 6PM":       (0.010, 0.025),
     }
-    min_signal, min_a11 = thresholds.get(lottery_name, (MIN_SIGNAL, MIN_A11))
+    sig_lo, sig_hi = DRAW_SIGNAL_SWEET_SPOT.get(draw_name, (0.010, 0.030))
+    min_signal = sig_lo
+    min_a11 = MIN_A11
 
     # -----------------------------------------------------------------------
-    # Decision engine — recalibrado con 109 sorteos reales
+    # Decision engine v2 — sweet spot por draw (backtesting 2026-10-09)
+    # ok_alert ya NO se usa como booster de agresividad (backtesting mostró
+    # que ok_alert=True tiene 28.9% vs 34.4% sin él — contraproducente)
     # -----------------------------------------------------------------------
     decision: str
     bs = best_signal or 0.0
     ba = best_a11 or 0
+
+    # Determinar si la señal cae dentro del sweet spot del sorteo
+    in_range = sig_lo <= bs <= sig_hi
 
     # Bloqueo duro: señal inexistente o a11 mínimo
     if ba < 2:
@@ -1139,21 +1152,14 @@ def analyze_target_and_maybe_notify(
     elif bs < WEAK_SIGNAL_HARD_BLOCK:
         decision = "❌ NO JUGAR"
 
-    # Señal en rango óptimo (0.010-0.030) + a11 >= 3 = mejor predictor
-    elif 0.010 <= bs <= 0.030 and ba >= 3:
-        if bs >= 0.015 and ba >= 3:
-            decision = "🔥 JUGAR AGRESIVO"
-        else:
-            decision = "⚠️ JUGAR"
+    # EN RANGO: señal dentro del sweet spot calibrado para este sorteo
+    elif in_range and ba >= 3:
+        decision = "🔥 JUGAR AGRESIVO"
 
-    # Señal baja pero a11 válido
-    elif bs >= 0.010 and ba >= 2:
+    elif in_range and ba >= 2:
         decision = "⚠️ JUGAR"
 
-    # Señal alta (> 0.030) — datos muestran solo 23% hit rate, probablemente ruido
-    elif bs > 0.030 and ba >= 3:
-        decision = "⚠️ JUGAR"  # permitir pero no agresivo
-
+    # FUERA DE RANGO: señal fuera del sweet spot → no jugar
     else:
         decision = "❌ NO JUGAR"
 
@@ -1225,11 +1231,29 @@ def _send_pick_telegram(
     best_a11 = bp.get("best_a11")
     ok = bp.get("ok_alert")
 
+    bs_val = best_signal or 0.0
+    # Recuperar sweet spot del sorteo para indicar si está en rango
+    _DRAW_SWEET_SPOT_TG = {
+        "Anguila 1PM":                  (0.015, 0.025),
+        "Anguila 6PM":                  (0.010, 0.030),
+        "Anguila 9PM":                  (0.020, 0.030),
+        "Loteria Nacional- Gana Más":   (0.010, 0.020),
+        "Loteria Nacional- Noche":      (0.015, 0.030),
+        "Quiniela La Primera":          (0.010, 0.025),
+        "Quiniela La Primera Noche":    (0.010, 0.030),
+        "Quiniela La Suerte":           (0.015, 0.030),
+        "Quiniela La Suerte 6PM":       (0.010, 0.025),
+    }
+    _tg_lo, _tg_hi = _DRAW_SWEET_SPOT_TG.get(target.get("draw", ""), (0.010, 0.030))
+    _in_range_tg = _tg_lo <= bs_val <= _tg_hi
+    range_label = f"🟢 EN RANGO ({_tg_lo:.3f}–{_tg_hi:.3f})" if _in_range_tg else f"🔴 FUERA DE RANGO ({_tg_lo:.3f}–{_tg_hi:.3f})"
+
     lines = [
         "🚨 OPV (Cross-Match SECUENCIAL / MI + Chi² HISTÓRICO)",
         f"🧩 Señal nueva: {event_key}",
         f"🎯 Target: {target['lottery']} | {target['draw']}",
         f"⏰ Hora: {target_dt.strftime('%H:%M')} RD",
+        f"📡 {range_label}",
         "",
         decision,
         "",
@@ -1447,5 +1471,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-# This marker is temporary
