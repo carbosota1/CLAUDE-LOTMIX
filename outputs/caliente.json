@@ -1,26 +1,5 @@
 {
-  "generado_en": "2026-10-09T13:25:22.286929",
-  "total_loterias": 1,
-  "loterias": {
-    "Anguila 10AM": {
-      "numeros": [
-        "58",
-        "39",
-        "75",
-        "87",
-        "34",
-        "83"
-      ],
-      "signal": 0.018683,
-      "nivel_senal": "media",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "a11": 4.0,
-      "ok_alert": true,
-      "hit_rate_historico": 0,
-      "draw": "Anguila 10AM",
-      "lottery": "Anguilla",
-      "date": "",
-      "time_rd": "2026-10-09 10:00"
-    }
-  }
+  "generado_en": "2026-10-09T14:33:49.010055",
+  "total_loterias": 0,
+  "loterias": {}
 }
