@@ -1,39 +1,105 @@
 {
-  "generated_at": "2026-10-11T13:19:36.880377-04:00",
-  "event_key": "2026-10-11|Anguilla|Anguila 1PM",
+  "generated_at": "2026-10-11T16:14:32.469826-04:00",
+  "event_key": "2026-10-11|La Nacional|Loteria Nacional- Gana Más",
   "date": "2026-10-11",
   "picks": [
     {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Gana Más",
-      "time_rd": "2026-10-11 14:30",
-      "decision": "❌ NO JUGAR",
+      "lottery": "Anguilla",
+      "draw": "Anguila 6PM",
+      "time_rd": "2026-10-11 18:00",
+      "decision": "🔥 JUGAR AGRESIVO",
       "topq": [
-        "97",
-        "76",
-        "51"
+        "39",
+        "86",
+        "47"
       ],
       "top12": [
-        "97",
-        "76",
-        "51",
-        "01",
-        "74",
+        "39",
+        "86",
+        "47",
+        "54",
+        "87",
         "88",
+        "62",
         "00",
-        "82",
-        "95",
-        "40",
-        "64",
-        "41"
+        "97",
+        "48",
+        "46",
+        "01"
       ],
       "pales": [
-        "76-97",
-        "51-97",
-        "01-97"
+        "39-86",
+        "39-47",
+        "39-54"
       ],
       "ok_alert": false,
-      "best_signal": 0.0066924155329123,
+      "best_signal": 0.024149867506506963,
+      "best_a11": 4
+    },
+    {
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Noche",
+      "time_rd": "2026-10-11 18:00",
+      "decision": "❌ NO JUGAR",
+      "topq": [
+        "37",
+        "38",
+        "71"
+      ],
+      "top12": [
+        "37",
+        "38",
+        "71",
+        "29",
+        "90",
+        "95",
+        "28",
+        "64",
+        "80",
+        "03",
+        "09",
+        "87"
+      ],
+      "pales": [
+        "37-38",
+        "37-71",
+        "29-37"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.012516959556171206,
+      "best_a11": 3
+    },
+    {
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte 6PM",
+      "time_rd": "2026-10-11 18:00",
+      "decision": "⚠️ JUGAR",
+      "topq": [
+        "07",
+        "51",
+        "75"
+      ],
+      "top12": [
+        "07",
+        "51",
+        "75",
+        "32",
+        "70",
+        "59",
+        "85",
+        "30",
+        "35",
+        "25",
+        "38",
+        "87"
+      ],
+      "pales": [
+        "07-51",
+        "07-75",
+        "07-32"
+      ],
+      "ok_alert": false,
+      "best_signal": 0.015992439263907633,
       "best_a11": 2
     }
   ]
