@@ -1,5 +1,44 @@
 {
-  "generado_en": "2026-10-14T17:18:05.941501",
-  "total_loterias": 0,
-  "loterias": {}
+  "generado_en": "2026-10-14T20:13:01.657418",
+  "total_loterias": 2,
+  "loterias": {
+    "Anguila 6PM": {
+      "numeros": [
+        "56",
+        "86",
+        "18",
+        "71",
+        "22",
+        "00"
+      ],
+      "signal": 0.02415,
+      "nivel_senal": "alta",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "a11": 4.0,
+      "ok_alert": false,
+      "hit_rate_historico": 35.3,
+      "draw": "Anguila 6PM",
+      "lottery": "Anguilla",
+      "date": "",
+      "time_rd": "2026-10-14 18:00"
+    },
+    "Quiniela La Suerte 6PM": {
+      "numeros": [
+        "57",
+        "73",
+        "56",
+        "75"
+      ],
+      "signal": 0.02082,
+      "nivel_senal": "media",
+      "decision": "🔥 JUGAR AGRESIVO",
+      "a11": 3.0,
+      "ok_alert": false,
+      "hit_rate_historico": 27.6,
+      "draw": "Quiniela La Suerte 6PM",
+      "lottery": "La Suerte",
+      "date": "",
+      "time_rd": "2026-10-14 18:00"
+    }
+  }
 }
