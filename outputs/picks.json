@@ -1,73 +1,40 @@
 {
-  "generated_at": "2026-10-14T19:18:35.550618-04:00",
-  "event_key": "2026-10-14|La Primera|Quiniela La Primera Noche",
-  "date": "2026-10-14",
+  "generated_at": "2026-10-15T10:34:51.271147-04:00",
+  "event_key": "2026-10-15|Anguilla|Anguila 10AM",
+  "date": "2026-10-15",
   "picks": [
     {
-      "lottery": "Anguilla",
-      "draw": "Anguila 9PM",
-      "time_rd": "2026-10-14 21:00",
+      "lottery": "La Primera",
+      "draw": "Quiniela La Primera",
+      "time_rd": "2026-10-15 12:00",
       "decision": "❌ NO JUGAR",
       "topq": [
-        "95",
-        "06",
-        "28"
+        "18",
+        "14",
+        "82"
       ],
       "top12": [
-        "95",
-        "06",
-        "28",
-        "49",
-        "83",
-        "60",
-        "59",
+        "18",
+        "14",
+        "82",
         "62",
-        "90",
+        "52",
+        "88",
+        "47",
+        "56",
+        "16",
         "25",
-        "63",
-        "69"
+        "24",
+        "34"
       ],
       "pales": [
-        "06-95",
-        "28-95",
-        "49-95"
+        "14-18",
+        "18-82",
+        "18-62"
       ],
       "ok_alert": false,
-      "best_signal": 0.030735836248640253,
-      "best_a11": 3
-    },
-    {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Noche",
-      "time_rd": "2026-10-14 21:00",
-      "decision": "❌ NO JUGAR",
-      "topq": [
-        "71",
-        "00",
-        "38"
-      ],
-      "top12": [
-        "71",
-        "00",
-        "38",
-        "73",
-        "30",
-        "06",
-        "86",
-        "45",
-        "64",
-        "29",
-        "11",
-        "90"
-      ],
-      "pales": [
-        "00-71",
-        "38-71",
-        "71-73"
-      ],
-      "ok_alert": false,
-      "best_signal": 0.03300119404095613,
-      "best_a11": 3
+      "best_signal": 0.011932404435039758,
+      "best_a11": 1
     }
   ]
 }
