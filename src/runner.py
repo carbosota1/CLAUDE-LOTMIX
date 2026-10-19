@@ -1426,41 +1426,6 @@ def main() -> None:
 
         print("[OK] Escritos outputs/picks_all.json y outputs/picks.json")
 
-        # 9) Generar caliente.json y notificar Telegram
-        try:
-            import importlib.util as _ilu
-            _scrapers_dir = os.path.join(os.path.dirname(__file__), )
-            _caliente_path = os.path.join(os.path.dirname(__file__), "generar_caliente.py")
-            _spec = _ilu.spec_from_file_location("generar_caliente", _caliente_path)
-            _mod  = _ilu.module_from_spec(_spec)
-            _spec.loader.exec_module(_mod)
-
-            _caliente_out = os.path.join(OUT_DIR, "caliente.json")
-            _result = _mod.run(web_payload["picks"], output_path=_caliente_out)
-            print("[OK] Escrito outputs/caliente.json")
-
-            # Telegram con los números calientes
-            _loterias = _result.get("loterias", {})
-            if _loterias:
-                _lines = ["🔥 NÚMEROS CALIENTES — CLAUDE LOTMIX", ""]
-                for _draw, _info in _loterias.items():
-                    _nums = ", ".join(_info["numeros"])
-                    _nivel = _info["nivel_senal"].upper()
-                    _signal = _info["signal"]
-                    _a11 = _info["a11"]
-                    _hr = _info["hit_rate_historico"]
-                    _lines.append(f"🎯 {_info['lottery']} | {_draw}")
-                    _lines.append(f"⏰ {_info['time_rd'].split(' ')[-1]} RD  |  {_info['decision']}")
-                    _lines.append(f"🔢 Números calientes: {_nums}")
-                    _lines.append(f"📊 Señal: {_nivel} ({_signal:.4f}) | a11: {_a11} | Hit histórico: {_hr}%")
-                    _lines.append("")
-                send_telegram("\n".join(_lines))
-                print("[OK] Telegram caliente enviado.")
-            else:
-                print("[INFO] Sin loterías calientes para notificar.")
-        except Exception as e:
-            print(f"[WARN] generar_caliente failed: {e}")
-
     else:
         print("[INFO] Sin payloads producidos.")
 
