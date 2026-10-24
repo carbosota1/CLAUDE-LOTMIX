@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-10-23T14:34:44.849938-04:00",
-  "event_key": "2026-10-23|La Nacional|Loteria Nacional- Gana Más",
-  "date": "2026-10-23",
+  "generated_at": "2026-10-24T18:30:55.232821-04:00",
+  "event_key": "2026-10-24|La Suerte|Quiniela La Suerte 6PM",
+  "date": "2026-10-24",
   "picks": [
     {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Gana Más",
-      "time_rd": "2026-10-23 14:30",
-      "decision": "❌ NO JUGAR",
+      "lottery": "La Primera",
+      "draw": "Quiniela La Primera Noche",
+      "time_rd": "2026-10-24 19:00",
+      "decision": "⚠️ JUGAR",
       "topq": [
-        "42",
-        "78",
-        "25"
+        "76",
+        "18",
+        "64"
       ],
       "top12": [
-        "42",
-        "78",
-        "25",
-        "10",
-        "61",
+        "76",
+        "18",
         "64",
-        "36",
-        "82",
-        "89",
-        "40",
-        "62",
-        "13"
+        "31",
+        "50",
+        "57",
+        "33",
+        "94",
+        "39",
+        "79",
+        "16",
+        "91"
       ],
       "pales": [
-        "42-78",
-        "25-42",
-        "10-42"
+        "18-76",
+        "64-76",
+        "31-76"
       ],
-      "ok_alert": false,
-      "best_signal": 0.007716758112584633,
-      "best_a11": 4
+      "ok_alert": true,
+      "best_signal": 0.030305653736506018,
+      "best_a11": 3
     }
   ]
 }
