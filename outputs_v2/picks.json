@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-10-30T12:49:25.036115-04:00",
-  "event_key": "2026-10-30|La Suerte|Quiniela La Suerte",
+  "generated_at": "2026-10-30T13:30:36.317836-04:00",
+  "event_key": "2026-10-30|Anguilla|Anguila 1PM",
   "date": "2026-10-30",
   "picks": [
     {
-      "lottery": "Anguilla",
-      "draw": "Anguila 1PM",
-      "time_rd": "2026-10-30 13:00",
-      "decision": "⚠️ JUGAR",
+      "lottery": "La Nacional",
+      "draw": "Loteria Nacional- Gana Más",
+      "time_rd": "2026-10-30 14:30",
+      "decision": "❌ NO JUGAR",
       "topq": [
-        "37",
-        "74",
-        "06"
+        "15",
+        "13",
+        "53"
       ],
       "top12": [
-        "37",
-        "74",
-        "06",
-        "04",
-        "65",
-        "26",
-        "25",
-        "52",
-        "03",
-        "62",
-        "34",
-        "76"
+        "15",
+        "13",
+        "53",
+        "79",
+        "20",
+        "00",
+        "14",
+        "21",
+        "24",
+        "46",
+        "94",
+        "16"
       ],
       "pales": [
-        "37-74",
-        "06-37",
-        "04-37"
+        "13-15",
+        "15-53",
+        "15-79"
       ],
       "ok_alert": false,
-      "best_signal": 0.012387394372057157,
+      "best_signal": 0.0039666352569403965,
       "best_a11": 2
     }
   ]
