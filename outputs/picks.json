@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-11-14T13:17:55.826763-04:00",
-  "event_key": "2026-11-14|Anguilla|Anguila 1PM",
+  "generated_at": "2026-11-14T18:19:44.446608-04:00",
+  "event_key": "2026-11-14|La Suerte|Quiniela La Suerte 6PM",
   "date": "2026-11-14",
   "picks": [
     {
-      "lottery": "La Nacional",
-      "draw": "Loteria Nacional- Gana Más",
-      "time_rd": "2026-11-14 14:30",
+      "lottery": "La Primera",
+      "draw": "Quiniela La Primera Noche",
+      "time_rd": "2026-11-14 19:00",
       "decision": "❌ NO JUGAR",
       "topq": [
-        "67",
-        "89",
-        "22"
+        "31",
+        "98",
+        "64"
       ],
       "top12": [
-        "67",
-        "89",
-        "22",
-        "48",
+        "31",
+        "98",
+        "64",
+        "65",
         "60",
-        "43",
-        "36",
-        "68",
-        "40",
-        "29",
-        "95",
-        "21"
+        "00",
+        "39",
+        "16",
+        "94",
+        "91",
+        "18",
+        "37"
       ],
       "pales": [
-        "67-89",
-        "22-67",
-        "48-67"
+        "31-98",
+        "31-64",
+        "31-65"
       ],
       "ok_alert": false,
-      "best_signal": 0.007177931338096757,
+      "best_signal": 0.03320831592654539,
       "best_a11": 4
     }
   ]
