@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-19T10:33:23.776540-04:00",
-  "event_key": "2026-11-19|Anguilla|Anguila 10AM",
+  "generated_at": "2026-11-19T12:18:09.763171-04:00",
+  "event_key": "2026-11-19|La Primera|Quiniela La Primera",
   "date": "2026-11-19",
   "picks": [
     {
-      "lottery": "La Primera",
-      "draw": "Quiniela La Primera",
-      "time_rd": "2026-11-19 12:00",
+      "lottery": "La Suerte",
+      "draw": "Quiniela La Suerte",
+      "time_rd": "2026-11-19 12:30",
       "decision": "❌ NO JUGAR",
       "topq": [
-        "16",
-        "12",
-        "82"
+        "34",
+        "29",
+        "02"
       ],
       "top12": [
-        "16",
-        "12",
-        "82",
-        "13",
-        "06",
-        "85",
-        "90",
-        "25",
-        "56",
-        "94",
-        "48",
-        "61"
+        "34",
+        "29",
+        "02",
+        "53",
+        "49",
+        "98",
+        "00",
+        "89",
+        "46",
+        "09",
+        "35",
+        "06"
       ],
       "pales": [
-        "12-16",
-        "16-82",
-        "13-16"
+        "29-34",
+        "02-34",
+        "34-53"
       ],
       "ok_alert": false,
-      "best_signal": 0.008369652236906505,
-      "best_a11": 1
+      "best_signal": 0.013790956332908635,
+      "best_a11": 2
     }
   ]
 }
