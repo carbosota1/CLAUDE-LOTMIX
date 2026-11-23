@@ -1,73 +1,40 @@
 {
-  "generated_at": "2026-11-23T16:13:05.966229-04:00",
-  "event_key": "2026-11-23|La Nacional|Loteria Nacional- Gana Más",
+  "generated_at": "2026-11-23T18:18:24.790556-04:00",
+  "event_key": "2026-11-23|La Suerte|Quiniela La Suerte 6PM",
   "date": "2026-11-23",
   "picks": [
     {
-      "lottery": "Anguilla",
-      "draw": "Anguila 6PM",
-      "time_rd": "2026-11-23 18:00",
-      "decision": "🔥 JUGAR AGRESIVO",
+      "lottery": "La Primera",
+      "draw": "Quiniela La Primera Noche",
+      "time_rd": "2026-11-23 19:00",
+      "decision": "❌ NO JUGAR",
       "topq": [
-        "62",
-        "26",
-        "61"
-      ],
-      "top12": [
-        "62",
-        "26",
-        "61",
-        "57",
-        "09",
-        "33",
-        "58",
-        "02",
-        "08",
-        "46",
-        "22",
-        "75"
-      ],
-      "pales": [
-        "26-62",
-        "61-62",
-        "57-62"
-      ],
-      "ok_alert": false,
-      "best_signal": 0.011727636098844993,
-      "best_a11": 3
-    },
-    {
-      "lottery": "La Suerte",
-      "draw": "Quiniela La Suerte 6PM",
-      "time_rd": "2026-11-23 18:00",
-      "decision": "🔥 JUGAR AGRESIVO",
-      "topq": [
-        "56",
-        "13",
-        "31"
-      ],
-      "top12": [
-        "56",
-        "13",
+        "59",
         "31",
-        "07",
-        "26",
-        "44",
-        "85",
-        "42",
-        "23",
-        "76",
-        "95",
-        "66"
+        "09"
+      ],
+      "top12": [
+        "59",
+        "31",
+        "09",
+        "97",
+        "55",
+        "06",
+        "98",
+        "00",
+        "51",
+        "53",
+        "37",
+        "56"
       ],
       "pales": [
-        "13-56",
-        "31-56",
-        "07-56"
+        "31-59",
+        "09-59",
+        "59-97"
       ],
-      "ok_alert": false,
-      "best_signal": 0.012693072510443073,
-      "best_a11": 3
+      "ok_alert": true,
+      "best_signal": 0.032191352668955876,
+      "best_a11": 4
     }
   ]
 }
